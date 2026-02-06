@@ -8,12 +8,48 @@
 
 OpenClaw connects AI models (Claude, GPT, DeepSeek) to the real world - files, APIs, apps, and devices. This list covers realistic monetization strategies with honest income expectations.
 
-**Reality check:** These are potential earnings, not guarantees. Factor in API/token costs ($50-500+/month), time investment, and market competition.
+**Reality check:** These are potential earnings, not guarantees. Factor in API/token costs, time investment, and market competition.
+
+---
+
+## The Money Loop 🔄
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│   💵 USDC ──► ClawRouter ──► LLM ──► OpenClaw ──► 💰 Profit │
+│       ▲                                              │      │
+│       └──────────────── reinvest ◄───────────────────┘      │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### How It Works
+
+1. **Fund your wallet** with USDC (on Base)
+2. **OpenClaw uses [ClawRouter](https://github.com/BlockRunAI/ClawRouter)** to access 30+ LLMs
+3. **Pay-per-request** via x402 micropayments - no API keys, no subscriptions
+4. **Save up to 78%** on inference costs with smart model routing
+5. **LLM executes tasks** that generate income
+6. **Profit funds more usage** - creating a self-sustaining money loop
+
+### Why ClawRouter?
+
+| Traditional API | ClawRouter |
+|----------------|------------|
+| Monthly subscriptions | Pay only for what you use |
+| Multiple API keys | One USDC wallet |
+| Single provider lock-in | 30+ models, auto-routing |
+| Overpay for simple tasks | Smart routing picks cheapest model |
+| $100-500+/month fixed | Scale from $1 to $1000+ |
+
+**Get started:** [ClawRouter GitHub](https://github.com/BlockRunAI/ClawRouter) | [BlockRun.ai](https://blockrun.ai)
 
 ---
 
 ## Contents
 
+- [The Money Loop](#the-money-loop-)
 - [Revenue Overview](#revenue-overview)
 - [Trading & DeFi](#trading--defi)
 - [Service-Based Income](#service-based-income)
@@ -273,20 +309,25 @@ How to split revenue when AI does the work:
 
 Don't forget these eat into your profits:
 
-| Cost | Monthly Range | Notes |
-|------|--------------|-------|
-| LLM API tokens | $50 - $500+ | Heavy users report $200+/month |
-| OpenClaw hosting | $5 - $50 | If self-hosted on VPS |
-| Data APIs | $0 - $200 | Market data, enrichment |
-| Infrastructure | $10 - $100 | Databases, queues, etc. |
-| Exchange fees | 0.1% - 0.5% | Per trade |
-| Gas fees | Variable | Chain dependent |
+| Cost | Traditional | With ClawRouter | Notes |
+|------|-------------|-----------------|-------|
+| LLM API tokens | $50 - $500+ | $15 - $150+ | Save up to 78% with smart routing |
+| OpenClaw hosting | $5 - $50 | $5 - $50 | If self-hosted on VPS |
+| Data APIs | $0 - $200 | $0 - $200 | Market data, enrichment |
+| Infrastructure | $10 - $100 | $10 - $100 | Databases, queues, etc. |
+| Exchange fees | 0.1% - 0.5% | 0.1% - 0.5% | Per trade |
+| Gas fees | Variable | Variable | Chain dependent |
 
-**Break-even example:**
-- Token costs: $150/month
-- Hosting: $20/month
-- Data APIs: $50/month
-- **Minimum income needed: $220/month** just to break even
+### Break-even Comparison
+
+| | Traditional | With ClawRouter |
+|--|-------------|-----------------|
+| Token costs | $150/month | $45/month |
+| Hosting | $20/month | $20/month |
+| Data APIs | $50/month | $50/month |
+| **Break-even** | **$220/month** | **$115/month** |
+
+**Pro tip:** Use [ClawRouter](https://github.com/BlockRunAI/ClawRouter) to cut your LLM costs. Pay with USDC, access 30+ models, and let smart routing pick the cheapest model for each task.
 
 ---
 
@@ -296,6 +337,10 @@ Don't forget these eat into your profits:
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw) - Main repository (171k+ stars)
 - [OpenClaw Docs](https://docs.openclaw.ai/) - Official documentation
 - [ClawHub Marketplace](https://clawhub.ai/) - 4,000+ skills
+
+### LLM Infrastructure
+- [ClawRouter](https://github.com/BlockRunAI/ClawRouter) - Smart LLM router, save 78% on inference costs
+- [BlockRun.ai](https://blockrun.ai) - Pay-per-request AI via x402 micropayments
 
 ### Community
 - [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) - Curated skill list (4.5k stars)
