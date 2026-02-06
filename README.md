@@ -82,13 +82,7 @@
 - [**prediction-market-arbitrage-bot**](https://github.com/realfishsam/prediction-market-arbitrage-bot) - Synthetic arbitrage (buy YES on one platform, NO on another).
   - 💰 **Monetize:** Arbitrage execution, managed arb service
 
-- [**Polymarket-Kalshi-Arbitrage-Bot**](https://github.com/earthskyorg/Polymarket-Kalshi-Arbitrage-Bot) - Cross-venue and intra-venue arb with async performance, fee accounting.
-  - 💰 **Monetize:** Premium arbitrage service, white-label for trading firms
-
-### Prediction Market Frameworks
-
-- [**PredictOS**](https://github.com/PredictionXBT/PredictOS) - All-in-one framework for AI agents in prediction markets. Cross-platform arbitrage detection.
-  - 💰 **Monetize:** Build custom agents, sell market data feeds, bot hosting
+### Resources
 
 - [**Awesome-Prediction-Market-Tools**](https://github.com/aarora4/Awesome-Prediction-Market-Tools) - Curated list including YN Signals (24/7 alpha aggregator) and Eventarb (free arb alerts).
 
