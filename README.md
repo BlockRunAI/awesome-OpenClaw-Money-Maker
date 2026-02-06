@@ -4,9 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/BlockRunAI/awesome-OpenClaw-Money-Maker?style=social)](https://github.com/BlockRunAI/awesome-OpenClaw-Money-Maker)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-> A curated list of ways to make money with [OpenClaw](https://github.com/openclaw/openclaw) - the open-source autonomous AI agent with 171k+ GitHub stars.
-
-OpenClaw connects AI models (Claude, GPT, DeepSeek) to the real world - files, APIs, apps, and devices. This list covers realistic monetization strategies with honest income expectations.
+> A curated list of open-source tools and repos for making money with AI agents like [OpenClaw](https://github.com/openclaw/openclaw).
 
 **Reality check:** These are potential earnings, not guarantees. Factor in API/token costs, time investment, and market competition.
 
@@ -24,8 +22,6 @@ OpenClaw connects AI models (Claude, GPT, DeepSeek) to the real world - files, A
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### How It Works
-
 1. **Fund your wallet** with USDC (on Base)
 2. **OpenClaw uses [ClawRouter](https://github.com/BlockRunAI/ClawRouter)** to access 30+ LLMs
 3. **Pay-per-request** via x402 micropayments - no API keys, no subscriptions
@@ -33,364 +29,224 @@ OpenClaw connects AI models (Claude, GPT, DeepSeek) to the real world - files, A
 5. **LLM executes tasks** that generate income
 6. **Profit funds more usage** - creating a self-sustaining money loop
 
-### Why ClawRouter?
-
-| Traditional API | ClawRouter |
-|----------------|------------|
-| Monthly subscriptions | Pay only for what you use |
-| Multiple API keys | One USDC wallet |
-| Single provider lock-in | 30+ models, auto-routing |
-| Overpay for simple tasks | Smart routing picks cheapest model |
-| $100-500+/month fixed | Scale from $1 to $1000+ |
-
-**Get started:** [ClawRouter GitHub](https://github.com/BlockRunAI/ClawRouter) | [BlockRun.ai](https://blockrun.ai)
+**Get started:** [ClawRouter](https://github.com/BlockRunAI/ClawRouter) | [BlockRun.ai](https://blockrun.ai)
 
 ---
 
 ## Contents
 
-- [The Money Loop](#the-money-loop-)
-- [Revenue Overview](#revenue-overview)
-- [Trading & DeFi](#trading--defi)
-- [Service-Based Income](#service-based-income)
-  - [Content Services](#content-services)
-  - [Automation Services](#automation-services)
-  - [Development Services](#development-services)
-  - [Data Services](#data-services)
-- [Product-Based Income](#product-based-income)
-  - [ClawHub Skills](#clawhub-skills)
-  - [SaaS Products](#saas-products)
-- [AI-Human Partnership Models](#ai-human-partnership-models)
-- [Top Money-Making Skills](#top-money-making-skills)
-- [Automation Ideas](#automation-ideas)
+- [Trading Bots](#trading-bots)
+- [Prediction Markets](#prediction-markets)
+- [DeFi & Yield Farming](#defi--yield-farming)
+- [Lead Generation & Sales](#lead-generation--sales)
+- [Content Creation](#content-creation)
+- [AI Agent Frameworks](#ai-agent-frameworks)
+- [OpenClaw Skills](#openclaw-skills)
+- [Workflow Automation](#workflow-automation)
+- [Resources & Directories](#resources--directories)
 - [Cost Considerations](#cost-considerations)
-- [Resources](#resources)
 - [Security Warnings](#security-warnings)
-- [Contributing](#contributing)
 
 ---
 
-## Revenue Overview
+## Trading Bots
 
-Realistic monthly income ranges (after costs):
+### Crypto Trading
 
-| Income Stream | Beginner | Experienced | Top 1% |
-|--------------|----------|-------------|--------|
-| Content Services | $100 - $500 | $500 - $2,000 | $3,000+ |
-| Data Services | $200 - $800 | $800 - $2,500 | $5,000+ |
-| Automation Services | $300 - $1,000 | $1,000 - $3,000 | $5,000+ |
-| Trading & DeFi | -$500 - $500 | $200 - $2,000 | $5,000+ |
-| ClawHub Skill Sales | $0 - $50 | $50 - $300 | $500+ |
-| Development Services | $500 - $2,000 | $2,000 - $5,000 | $10,000+ |
-| SaaS Products | $0 - $500 | $500 - $3,000 | $10,000+ |
+- [**Freqtrade**](https://github.com/freqtrade/freqtrade) ⭐ 46.5k - Free, open-source crypto trading bot. Supports all major exchanges (Binance, Hyperliquid, etc.). ML strategy optimization via FreqAI. Telegram control + WebUI.
+  - 💰 **Monetize:** Sell custom strategies, run managed bot services, offer backtesting consulting
 
-**Hourly Rates (Freelance):**
-- Junior automation work: $25 - $50/hour
-- Mid-level integrations: $50 - $100/hour
-- Senior/specialized: $100 - $200/hour
+- [**FinRL**](https://github.com/AI4Finance-Foundation/FinRL) ⭐ 11.4k - Deep reinforcement learning for trading. Supports DQN, DDPG, A2C, SAC, PPO, TD3. Crypto environments with Binance API.
+  - 💰 **Monetize:** Sell trained models, quant consulting, proprietary strategy development
 
----
+- [**Sibyl**](https://github.com/nMaroulis/sibyl) - AI-powered crypto trading dashboard. Oracle (LLM agent layer) + Chronos (LSTM/GTU price forecasting).
+  - 💰 **Monetize:** Premium analysis tool, API access to signals, white-label for exchanges
 
-## Trading & DeFi
+### AI Trading Agents
 
-⚠️ **High risk. You can lose money. Never trade more than you can afford to lose.**
+- [**AgentTrade**](https://github.com/luffycodes/AgentTrade) - LLM-based trading system using technical analysis, news, and sentiment with reasoning.
+  - 💰 **Monetize:** Signal service, managed accounts, SaaS platform
 
-### Crypto Trading Bots
-
-| Strategy | Capital Needed | Realistic Monthly Return | Risk Level |
-|----------|---------------|-------------------------|------------|
-| Grid Trading | $500 - $5,000 | 1% - 5% | Medium |
-| DCA Automation | $100 - $10,000 | Market dependent | Low |
-| Momentum/Trend | $1,000 - $10,000 | -10% to +15% | High |
-| Mean Reversion | $2,000 - $20,000 | 2% - 8% | Medium |
-
-**Popular integrations:**
-- Binance, Coinbase, Kraken APIs
-- DEX aggregators (1inch, Jupiter)
-- On-chain data feeds (Chainlink, Pyth)
-
-### DeFi Yield Automation
-
-| Activity | APY Range | Complexity | Risk |
-|----------|-----------|------------|------|
-| Stablecoin Lending | 3% - 8% | ⭐ Easy | Low |
-| LP Farming | 10% - 50% | ⭐⭐ Medium | Medium (IL) |
-| Yield Aggregation | 5% - 20% | ⭐⭐ Medium | Medium |
-| Leveraged Farming | 20% - 100%+ | ⭐⭐⭐ Hard | Very High |
-
-**What OpenClaw can automate:**
-- Auto-compound rewards
-- Rebalance LP positions
-- Move funds between protocols for best yields
-- Monitor health factors and deleverage
-- Harvest and sell reward tokens
-
-### Arbitrage
-
-| Type | Profit per Trade | Frequency | Competition |
-|------|-----------------|-----------|-------------|
-| CEX-CEX | 0.1% - 0.5% | Rare | Extreme |
-| DEX-DEX | 0.2% - 1% | Occasional | High |
-| CEX-DEX | 0.3% - 2% | Occasional | High |
-| Cross-chain | 0.5% - 3% | Moderate | Medium |
-
-**Reality:** Pure arbitrage is extremely competitive. MEV bots and HFT firms dominate. Focus on longer-tail opportunities or cross-chain plays.
-
-### Prediction Markets
-
-| Platform | Use Case | Edge Required |
-|----------|----------|---------------|
-| Polymarket | News/events trading | Information advantage |
-| Kalshi | Economic events | Research depth |
-| Manifold | Community predictions | Niche knowledge |
-
-**OpenClaw strategies:**
-- Monitor news feeds for early signals
-- Aggregate sentiment from social media
-- Track on-chain whale movements
-- Automate position sizing
-
-### Portfolio Management
-
-| Task | Benefit |
-|------|---------|
-| Auto-rebalancing | Maintain target allocations |
-| Tax-loss harvesting | Reduce tax burden |
-| DCA execution | Remove emotion from buying |
-| Stop-loss automation | Limit downside |
-| Profit-taking rules | Lock in gains |
+- [**TradingAgents**](https://github.com/TradingAgents-AI/TradingAgents) - Multi-agent trading framework with specialized analyst, researcher, and trader agents.
+  - 💰 **Monetize:** Enterprise trading solutions, custom agent development
 
 ---
 
-## Service-Based Income
+## Prediction Markets
 
-### Content Services
+### Arbitrage Bots
 
-Realistic pricing for AI-assisted content:
+- [**polymarket-kalshi-btc-arbitrage-bot**](https://github.com/CarlosIbCu/polymarket-kalshi-btc-arbitrage-bot) - Real-time arbitrage between Polymarket and Kalshi on Bitcoin markets.
+  - 💰 **Monetize:** Execute profitable arbs, sell signals/alerts
 
-| Service | Per-Unit Price | Monthly Volume | Realistic Income |
-|---------|---------------|----------------|------------------|
-| Blog Posts (1000 words) | $20 - $75 | 10 - 30 articles | $200 - $2,250 |
-| Social Media Posts | $5 - $15/post | 50 - 200 posts | $250 - $3,000 |
-| Product Descriptions | $3 - $10 each | 50 - 200 items | $150 - $2,000 |
-| Email Newsletters | $50 - $150/issue | 4 - 8 issues | $200 - $1,200 |
-| Video Scripts | $30 - $100 each | 5 - 15 scripts | $150 - $1,500 |
+- [**prediction-market-arbitrage-bot**](https://github.com/realfishsam/prediction-market-arbitrage-bot) - Synthetic arbitrage (buy YES on one platform, NO on another).
+  - 💰 **Monetize:** Arbitrage execution, managed arb service
 
-**Note:** Rates drop significantly when clients know AI is involved. Premium pricing requires heavy human editing and expertise.
+- [**Polymarket-Kalshi-Arbitrage-Bot**](https://github.com/earthskyorg/Polymarket-Kalshi-Arbitrage-Bot) - Cross-venue and intra-venue arb with async performance, fee accounting.
+  - 💰 **Monetize:** Premium arbitrage service, white-label for trading firms
 
-### Automation Services
+### Prediction Market Frameworks
 
-| Service | One-time Setup | Monthly Retainer |
-|---------|---------------|------------------|
-| Lead Scraping Pipeline | $200 - $1,000 | $50 - $200/month |
-| Email Automation | $300 - $1,500 | $100 - $300/month |
-| Report Generation | $200 - $800 | $50 - $150/month |
-| Social Media Scheduling | $100 - $500 | $50 - $150/month |
-| Competitor Monitoring | $300 - $1,000 | $100 - $300/month |
+- [**PredictOS**](https://github.com/PredictionXBT/PredictOS) - All-in-one framework for AI agents in prediction markets. Cross-platform arbitrage detection.
+  - 💰 **Monetize:** Build custom agents, sell market data feeds, bot hosting
 
-### Development Services
-
-| Service | Project Price | Timeline |
-|---------|--------------|----------|
-| Simple Chatbot | $500 - $2,000 | 1-2 weeks |
-| API Integration | $300 - $1,500 | 3-7 days |
-| Custom OpenClaw Skill | $200 - $1,000 | 2-5 days |
-| Workflow Automation | $500 - $3,000 | 1-3 weeks |
-| Full Agent System | $2,000 - $10,000 | 2-8 weeks |
-
-### Data Services
-
-| Service | Pricing Model | Typical Project |
-|---------|--------------|-----------------|
-| Data Cleaning | $0.01 - $0.05/row | $100 - $500 |
-| Lead Enrichment | $0.02 - $0.10/record | $200 - $1,000 |
-| Research Reports | $100 - $500/report | - |
-| Web Scraping | $100 - $500/source | - |
+- [**Awesome-Prediction-Market-Tools**](https://github.com/aarora4/Awesome-Prediction-Market-Tools) - Curated list including YN Signals (24/7 alpha aggregator) and Eventarb (free arb alerts).
 
 ---
 
-## Product-Based Income
+## DeFi & Yield Farming
 
-### ClawHub Skills
+- [**DeFi-Yield-AutoFarming**](https://github.com/therumpshakingaction/DeFi-Yield-AutoFarming) - Automated yield farming with auto-reinvestment, pool optimization, risk management.
+  - 💰 **Monetize:** Take % of returns, subscription access, manage client portfolios
 
-**Reality check:** Most skills earn $0-$50/month. The marketplace is crowded.
+- [**yield-farmers-almanac**](https://github.com/corbinpage/yield-farmers-almanac) - Community-sourced DeFi yield farming opportunities database.
+  - 💰 **Monetize:** Premium data feeds, analysis reports, tools built on top
 
-| Skill Tier | Monthly Downloads | Typical Revenue |
-|------------|------------------|-----------------|
-| Most skills | 0 - 50 | $0 - $20 |
-| Good skills | 50 - 500 | $20 - $100 |
-| Popular skills | 500 - 2,000 | $100 - $500 |
-| Top skills | 2,000+ | $500+ |
+### OpenClaw DeFi Skills
 
-**What works:**
-- Solve a specific, painful problem
-- Better UX than alternatives
-- Active maintenance and support
-- Good documentation with examples
-- Integrations with popular tools
-
-### SaaS Products
-
-Build products powered by OpenClaw:
-
-| Product Type | Dev Time | Monthly Revenue (realistic) |
-|--------------|----------|----------------------------|
-| Simple tool (MVP) | 1-2 weeks | $0 - $500 |
-| Niche automation | 1-2 months | $100 - $2,000 |
-| Vertical SaaS | 3-6 months | $500 - $5,000 |
-| Platform | 6-12 months | $1,000 - $20,000+ |
+- [**BankrBot/openclaw-skills**](https://github.com/BankrBot/openclaw-skills) - OpenClaw skills for Polymarket betting, crypto trading, DeFi operations, leverage trading, portfolio management. Multi-chain: Base, Ethereum, Polygon, Solana.
+  - 💰 **Monetize:** Sell skills on ClawHub, partner with exchanges for affiliate volume
 
 ---
 
-## AI-Human Partnership Models
+## Lead Generation & Sales
 
-How to split revenue when AI does the work:
+- [**ai-lead-generator**](https://github.com/brightdata/ai-lead-generator) - AI-powered lead gen using Bright Data scraping + OpenAI for qualification/enrichment. Streamlit UI with instant lead scoring.
+  - 💰 **Monetize:** Sell lead lists, B2B SaaS subscription, charge per lead
 
-| Model | AI Contribution | Human Contribution | Split |
-|-------|-----------------|-------------------|-------|
-| Human-led | Assists with tasks | Sales, QA, client mgmt | 20/80 |
-| Balanced | Does most work | Sales, oversight, fixes | 50/50 |
-| AI-led | Full automation | Account access only | 70/30 |
-| Passive | Everything | Initial setup only | 80/20 |
+- [**ai-web-scraper**](https://github.com/kaymen99/ai-web-scraper) - AI web scraper using Crawl4AI. Supports GPT-4o, Claude, DeepSeek, Gemini via LiteLLM.
+  - 💰 **Monetize:** Scraping service, subscription tiers, white-label tool
 
----
+- [**SalesGPT**](https://github.com/filip-michalsky/SalesGPT) ⭐ 2.2k+ - Context-aware AI sales agent for voice, email, SMS. Autonomous across sales funnel stages.
+  - 💰 **Monetize:** Outbound sales automation, enterprise SDR replacement, subscription campaigns
 
-## Top Money-Making Skills
-
-### Trading & Finance
-- 📈 **Portfolio Rebalancing** - Maintain target allocations automatically
-- 💱 **DEX Aggregation** - Find best swap routes
-- 🌾 **Yield Monitoring** - Track and optimize DeFi positions
-- 📊 **Market Analysis** - Technical indicators + sentiment
-
-### Lead Generation & Sales
-- 🔍 **Web Scraping** - Extract leads from directories, websites
-- 📧 **Outreach Automation** - Personalized email sequences
-- 📊 **Lead Enrichment** - Append company data
-- 🎯 **Lead Scoring** - Qualify prospects automatically
-
-### Content & Marketing
-- ✍️ **SEO Content Writing** - Blog posts, landing pages
-- 📱 **Social Media Automation** - Scheduling, engagement
-- 📰 **Newsletter Curation** - Aggregate and summarize content
-
-### Data & Research
-- 🧹 **Data Cleaning** - Normalize messy datasets
-- 📈 **Competitor Research** - Weekly intel reports
-- 📋 **Report Generation** - Automated business reports
+- [**Google-Maps-Scraper**](https://github.com/omkarcloud/google-maps-scraper) ⭐ 1.4k - Bulk scrape Google Maps (names, addresses, phones, emails, ratings).
+  - 💰 **Monetize:** Sell local business leads, B2B contact databases
 
 ---
 
-## Automation Ideas
+## Content Creation
 
-### Quick Wins (< 1 hour setup)
-- Morning crypto briefing (prices, news, portfolio status)
-- Social media post scheduler
-- Email inbox summarizer
-- DCA buy execution
-- Price alerts with context
+- [**MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) ⭐ 44k - AI one-click HD short video generation.
+  - 💰 **Monetize:** YouTube/TikTok monetization, affiliate marketing, video ads
 
-### Medium Projects (1-4 hours)
-- Lead scraping pipeline
-- Yield farming monitor
-- Content calendar generator
-- Competitor price tracker
-- Portfolio rebalancing bot
+- [**Auto_Social_Media_Content_Generator**](https://github.com/PatrykIA/Auto_Social_Media_Content_Generator) - Automation for Facebook, Instagram, X, LinkedIn with AI text + Canva images. Auto-posts every 2 days.
+  - 💰 **Monetize:** SaaS subscription, agency white-label, manage client accounts
 
-### Larger Projects (1-2 days)
-- Full trading bot with risk management
-- Multi-channel support system
-- Automated research pipeline
-- Cross-chain bridge optimizer
+- [**ALwrity**](https://github.com/AJaySi/ALwrity) - AI Digital Marketing Platform with RAG, SEO, multilingual. Blog Writer (Research→Outline→Content→SEO→Publish).
+  - 💰 **Monetize:** Monthly SaaS, per-article pricing, agency white-label
+
+- [**CogVideo**](https://github.com/THUDM/CogVideo) ⭐ 12k - Text/image to video generation.
+  - 💰 **Monetize:** Content creation, ads, social media, video SaaS
+
+---
+
+## AI Agent Frameworks
+
+Build monetizable AI agents with these frameworks:
+
+- [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) ⭐ 177k - Accessible AI tools for building autonomous agents. Forge for agent creation, benchmarks, leaderboard.
+  - 💰 **Monetize:** Build/sell custom agents, agent-as-a-service, enterprise licensing
+
+- [**CrewAI**](https://github.com/crewAIInc/crewAI) - Lean, fast Python framework for orchestrating role-playing AI agents with collaborative intelligence.
+  - 💰 **Monetize:** Niche agents, consulting, pre-built templates, managed hosting
+
+- [**LangChain**](https://github.com/langchain-ai/langchain) ⭐ 112k - Framework for context-aware reasoning applications.
+  - 💰 **Monetize:** LLM apps with monetized endpoints, consulting, templates
+
+- [**LlamaIndex**](https://github.com/run-llama/llama_index) ⭐ 43k - Data-centric agents with RAG primitives. 500+ connectors via LlamaHub.
+  - 💰 **Monetize:** Data-powered AI agents, specialized apps, consulting
+
+- [**Pydantic-AI**](https://github.com/pydantic/pydantic-ai) - GenAI Agent Framework with validation layer for OpenAI, Anthropic, Google SDKs.
+  - 💰 **Monetize:** Validated agent applications, development services
+
+---
+
+## OpenClaw Skills
+
+- [**BankrBot/openclaw-skills**](https://github.com/BankrBot/openclaw-skills) - Polymarket, crypto trading, DeFi, leverage, portfolio management, NFTs. Multi-chain support.
+
+- [**VoltAgent/awesome-openclaw-skills**](https://github.com/VoltAgent/awesome-openclaw-skills) ⭐ 4.5k - Curated collection of OpenClaw skills and integrations.
+
+- [**openclaw/clawhub**](https://github.com/openclaw/clawhub) ⭐ 1.4k - Official skill directory and marketplace.
+
+---
+
+## Workflow Automation
+
+- [**N8N-Workflows**](https://github.com/DINAKAR-S/N8N-Workflows) - Real-world n8n automation for lead gen, AI agents, web scraping, social media.
+  - 💰 **Monetize:** Sell workflow templates, automation consulting, monthly management
+
+- [**n8n-ai-automations**](https://github.com/lucaswalter/n8n-ai-automations) - Advanced workflows: law firm lead gen, competitor UGC analysis, personalized outreach.
+  - 💰 **Monetize:** Niche workflow packages, agency white-label, training
+
+---
+
+## Resources & Directories
+
+### Awesome Lists
+
+- [**500-AI-Agents-Projects**](https://github.com/ashishpatel26/500-AI-Agents-Projects) - Curated AI agent use cases across industries (healthcare, finance, education, retail).
+
+- [**awesome-ai-agents**](https://github.com/slavakurilyak/awesome-ai-agents) - 300+ agentic AI resources.
+
+- [**awesome_ai_agents**](https://github.com/jim-schwoebel/awesome_ai_agents) - 1,500+ AI agent resources and tools.
+
+- [**MakeMoneyWithAI**](https://github.com/garylab/MakeMoneyWithAI) - Curated list of open-source AI projects for generating income.
+
+- [**AI-Agent-Platforms-Automation-Tools**](https://github.com/rembertdesigns/AI-Agent-Platforms-Automation-Tools) - Directory of autonomous AI agents, frameworks, platforms.
+
+### Infrastructure
+
+- [**ClawRouter**](https://github.com/BlockRunAI/ClawRouter) - Smart LLM router, save 78% on inference. 30+ models, one USDC wallet.
+- [**BlockRun.ai**](https://blockrun.ai) - Pay-per-request AI via x402 micropayments.
+
+### Data & Trading
+
+- [DeFiLlama](https://defillama.com/) - TVL and yield data
+- [Dune Analytics](https://dune.com/) - On-chain data
+- [Binance API Docs](https://binance-docs.github.io/apidocs/)
 
 ---
 
 ## Cost Considerations
 
-Don't forget these eat into your profits:
-
-| Cost | Traditional | With ClawRouter | Notes |
-|------|-------------|-----------------|-------|
-| LLM API tokens | $50 - $500+ | $15 - $150+ | Save up to 78% with smart routing |
-| OpenClaw hosting | $5 - $50 | $5 - $50 | If self-hosted on VPS |
-| Data APIs | $0 - $200 | $0 - $200 | Market data, enrichment |
-| Infrastructure | $10 - $100 | $10 - $100 | Databases, queues, etc. |
-| Exchange fees | 0.1% - 0.5% | 0.1% - 0.5% | Per trade |
-| Gas fees | Variable | Variable | Chain dependent |
-
-### Break-even Comparison
-
-| | Traditional | With ClawRouter |
-|--|-------------|-----------------|
-| Token costs | $150/month | $45/month |
-| Hosting | $20/month | $20/month |
-| Data APIs | $50/month | $50/month |
-| **Break-even** | **$220/month** | **$115/month** |
-
-**Pro tip:** Use [ClawRouter](https://github.com/BlockRunAI/ClawRouter) to cut your LLM costs. Pay with USDC, access 30+ models, and let smart routing pick the cheapest model for each task.
-
----
-
-## Resources
-
-### Official
-- [OpenClaw GitHub](https://github.com/openclaw/openclaw) - Main repository (171k+ stars)
-- [OpenClaw Docs](https://docs.openclaw.ai/) - Official documentation
-- [ClawHub Marketplace](https://clawhub.ai/) - 4,000+ skills
-
-### LLM Infrastructure
-- [ClawRouter](https://github.com/BlockRunAI/ClawRouter) - Smart LLM router, save 78% on inference costs
-- [BlockRun.ai](https://blockrun.ai) - Pay-per-request AI via x402 micropayments
-
-### Community
-- [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) - Curated skill list (4.5k stars)
-
-### Trading Resources
-- [Binance API Docs](https://binance-docs.github.io/apidocs/)
-- [DeFiLlama](https://defillama.com/) - TVL and yield data
-- [Dune Analytics](https://dune.com/) - On-chain data
+| Cost | Traditional | With ClawRouter |
+|------|-------------|-----------------|
+| LLM API tokens | $50 - $500+/mo | $15 - $150+/mo |
+| Hosting | $5 - $50/mo | $5 - $50/mo |
+| Data APIs | $0 - $200/mo | $0 - $200/mo |
+| **Break-even** | **~$220/month** | **~$115/month** |
 
 ---
 
 ## Security Warnings
 
 ### ClawHub Marketplace
-⚠️ **Critical security issues:**
-
-- [341 malicious skills found stealing credentials](https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub-skills-stealing-data-from-openclaw-users/) (Feb 2026)
-- [7.1% of skills expose sensitive data](https://www.theregister.com/2026/02/05/openclaw_skills_marketplace_leaky_security/)
-
-**Best practices:**
-- Audit skill code before installing
-- Check skill reputation and reviews
-- Use isolated environments for testing
+⚠️ **341 malicious skills found stealing credentials** (Feb 2026). Always audit skill code before installing.
 
 ### Trading Safety
-⚠️ **Protect your funds:**
-
 - Never give agents withdrawal permissions
 - Use API keys with trade-only access
 - Set strict position size limits
 - Test with small amounts first
-- Monitor bot activity regularly
 - Have kill switches ready
-
----
-
-## Contributing
-
-Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
-
-- Share realistic income reports (anonymized)
-- Add new strategies with honest expectations
-- Report security issues
-- Improve documentation
 
 ---
 
 ## Disclaimer
 
-This list is for educational purposes. Trading involves substantial risk. Past performance doesn't guarantee future results. Many people lose money. Do your own research. Not financial advice.
+This list is for educational purposes. Trading involves substantial risk. Many people lose money. Do your own research. Not financial advice.
+
+---
+
+## Contributing
+
+Contributions welcome! Add repos with:
+- GitHub URL
+- Star count (if notable)
+- Clear description
+- How to monetize
 
 ---
 
