@@ -36,8 +36,10 @@
 ## Contents
 
 - [Trading Bots](#trading-bots)
+- [MEV & Arbitrage](#mev--arbitrage)
 - [Prediction Markets](#prediction-markets)
 - [DeFi & Yield Farming](#defi--yield-farming)
+- [Airdrop Farming](#airdrop-farming)
 - [Lead Generation & Sales](#lead-generation--sales)
 - [Content Creation](#content-creation)
 - [AI Agent Frameworks](#ai-agent-frameworks)
@@ -91,6 +93,39 @@
 - [**TradingAgents**](https://github.com/TradingAgents-AI/TradingAgents) - Multi-agent trading framework with specialized analyst, researcher, and trader agents.
   - 💰 **Monetize:** Enterprise trading solutions, custom agent development
 
+### Solana Trading
+
+- [**Solana Trading Bot**](https://github.com/warp-id/solana-trading-bot) ⭐ 2.3k - Beta Solana trading bot. Sniper, swap, and automated trading.
+  - 💰 **Monetize:** Token sniping profits, managed bot service, strategy development
+
+- [**open-sol-bot**](https://github.com/ChainBuff/open-sol-bot) ⭐ 404 - Fully open-source Solana copy trading and auto-trading bot.
+  - 💰 **Monetize:** Copy trading fees, managed accounts, bot licensing
+
+- [**Solana Trading Bot (Raydium/Pump.fun)**](https://github.com/henrytirla/Solana-Trading-Bot) ⭐ 289 - Buy/sell SPL tokens on Raydium DEX and Pump.fun using Jito SDK.
+  - 💰 **Monetize:** Token trading profits, sniping service, strategy consulting
+
+- [**solana-grpc-sniper-bot**](https://github.com/0xRustPro/solana-grpc-sniper-bundler-bot) ⭐ 126 - High-speed Solana sniper using gRPC for real-time transaction streaming.
+  - 💰 **Monetize:** New token sniping, managed sniper service, speed advantage
+
+---
+
+## MEV & Arbitrage
+
+- [**Artemis**](https://github.com/paradigmxyz/artemis) ⭐ 2.9k - Simple, modular, fast MEV bot framework in Rust by Paradigm.
+  - 💰 **Monetize:** Sandwich attacks, liquidations, arbitrage profits, MEV extraction
+
+- [**Jito MEV Bot**](https://github.com/jito-labs/mev-bot) ⭐ 1.2k - Official Jito Labs MEV bot for Solana.
+  - 💰 **Monetize:** Solana MEV extraction, liquidations, arbitrage
+
+- [**mev-template-rs**](https://github.com/degatchi/mev-template-rs) ⭐ 727 - Bootstrap MEV bot strategies with Rust boilerplate.
+  - 💰 **Monetize:** Build custom MEV strategies, consulting, bot-as-a-service
+
+- [**mev-templates**](https://github.com/solidquant/mev-templates) ⭐ 570 - MEV templates in Python/Javascript/Rust. DEX flashloan arbitrage.
+  - 💰 **Monetize:** Cross-DEX arbitrage, flashloan profits, strategy development
+
+- [**Loom**](https://github.com/dexloom/loom) ⭐ 333 - MEV Bot based on Alloy. Modern EVM MEV extraction.
+  - 💰 **Monetize:** EVM MEV extraction, liquidations, arbitrage strategies
+
 ---
 
 ## Prediction Markets
@@ -141,7 +176,39 @@
 
 ---
 
+## Airdrop Farming
+
+- [**MasterCryptoFarmBot**](https://github.com/masterking32/MasterCryptoFarmBot) ⭐ 232 - Foundation for building crypto farming and airdrop bots for Telegram-based games.
+  - 💰 **Monetize:** Airdrop farming profits, sell bot access, multi-account management
+
+- [**Telegram-Airdrop-Bot**](https://github.com/fabston/Telegram-Airdrop-Bot) ⭐ 211 - Manage Telegram airdrops on ERC-20, BEP-20 tokens.
+  - 💰 **Monetize:** Run airdrop campaigns, token distribution service
+
+- [**t3rn-airdrop-bot**](https://github.com/dante4rt/t3rn-airdrop-bot) ⭐ 208 - Automate transactions and bridging on t3rn network for airdrop farming.
+  - 💰 **Monetize:** Airdrop farming, multi-wallet management, bridge fee farming
+
+- [**blum-airdrop-bot**](https://github.com/dante4rt/blum-airdrop-bot) ⭐ 137 - Automate Blum airdrop: claim rewards, manage farming, complete tasks, play games.
+  - 💰 **Monetize:** Blum token farming, managed farming service
+
+- [**nodepay-airdrop-bot**](https://github.com/dante4rt/nodepay-airdrop-bot) ⭐ 110 - Automate Nodepay airdrop with session management and proxy support.
+  - 💰 **Monetize:** Nodepay token farming, bandwidth monetization
+
+- [**polyflow-airdrop-bot**](https://github.com/dante4rt/polyflow-airdrop-bot) ⭐ 105 - Farm Scan2Earn points on PolyFlow by auto-uploading invoices.
+  - 💰 **Monetize:** PolyFlow points farming, invoice submission automation
+
+---
+
 ## Lead Generation & Sales
+
+### LinkedIn Automation
+
+- [**OpenOutreach**](https://github.com/eracle/OpenOutreach) ⭐ 1.1k - LinkedIn automation: visit profiles, connect, message with AI.
+  - 💰 **Monetize:** B2B lead gen, outreach agency, connection building service
+
+- [**linvo-scraper**](https://github.com/linvo-io/linvo-scraper) ⭐ 625 - LinkedIn automation with comprehensive scraping. Production-grade.
+  - 💰 **Monetize:** Lead scraping service, data enrichment, profile export
+
+### Lead Generation
 
 - [**ai-lead-generator**](https://github.com/brightdata/ai-lead-generator) - AI-powered lead gen using Bright Data scraping + OpenAI for qualification/enrichment. Streamlit UI with instant lead scoring.
   - 💰 **Monetize:** Sell lead lists, B2B SaaS subscription, charge per lead
@@ -154,6 +221,9 @@
 
 - [**Google-Maps-Scraper**](https://github.com/omkarcloud/google-maps-scraper) ⭐ 1.4k - Bulk scrape Google Maps (names, addresses, phones, emails, ratings).
   - 💰 **Monetize:** Sell local business leads, B2B contact databases
+
+- [**ChatGPT Scraper**](https://github.com/oxylabs/chatgpt-scraper) ⭐ 2.7k - Collect ChatGPT responses via Web Scraper API. Automated prompt responses.
+  - 💰 **Monetize:** AI response aggregation, research automation, data collection service
 
 ---
 
@@ -170,6 +240,16 @@
 
 - [**AI Video Generator Agent**](https://github.com/davide97l/ai-video-generator) ⭐ 126 - AI agent that automatically generates and posts short videos. Full automation pipeline.
   - 💰 **Monetize:** Faceless channel automation, content agency, video-as-a-service
+
+### YouTube Automation
+
+- [**gemini-youtube-automation**](https://github.com/ChaituRajSagar/gemini-youtube-automation) ⭐ 219 - Fully autonomous AI pipeline using Gemini to generate and upload educational videos to YouTube.
+  - 💰 **Monetize:** Educational channel monetization, faceless channels, course promotion
+
+- [**youtube-automation-agent**](https://github.com/darkzOGx/youtube-automation-agent) ⭐ 49 - Fully automated YouTube channel with AI agents. Creates, optimizes, publishes 24/7. Works with free Gemini API.
+  - 💰 **Monetize:** Ad revenue, affiliate marketing, brand deals
+
+### Social Media Automation
 
 - [**Auto_Social_Media_Content_Generator**](https://github.com/PatrykIA/Auto_Social_Media_Content_Generator) - Automation for Facebook, Instagram, X, LinkedIn with AI text + Canva images. Auto-posts every 2 days.
   - 💰 **Monetize:** SaaS subscription, agency white-label, manage client accounts
