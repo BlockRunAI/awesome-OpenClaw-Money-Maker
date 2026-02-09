@@ -56,13 +56,34 @@
 - [**Freqtrade**](https://github.com/freqtrade/freqtrade) ⭐ 46.5k - Free, open-source crypto trading bot. Supports all major exchanges (Binance, Hyperliquid, etc.). ML strategy optimization via FreqAI. Telegram control + WebUI.
   - 💰 **Monetize:** Sell custom strategies, run managed bot services, offer backtesting consulting
 
+- [**Hummingbot**](https://github.com/hummingbot/hummingbot) ⭐ 15.9k - Open source market making and liquidity mining bot. Supports 40+ CEXs/DEXs. Customizable strategies in Python.
+  - 💰 **Monetize:** Market making profits, liquidity mining rewards, strategy consulting
+
 - [**FinRL**](https://github.com/AI4Finance-Foundation/FinRL) ⭐ 11.4k - Deep reinforcement learning for trading. Supports DQN, DDPG, A2C, SAC, PPO, TD3. Crypto environments with Binance API.
   - 💰 **Monetize:** Sell trained models, quant consulting, proprietary strategy development
+
+- [**Jesse**](https://github.com/jesse-ai/jesse) ⭐ 7.4k - Advanced crypto trading bot in Python. Backtesting, paper trading, live trading. Built for algo traders.
+  - 💰 **Monetize:** Sell strategies, subscription bot service, algo trading education
+
+- [**Superalgos**](https://github.com/Superalgos/Superalgos) ⭐ 5.3k - Visual crypto trading bot builder. Drag-and-drop strategy design, backtesting, paper trading, multi-server deployments.
+  - 💰 **Monetize:** Sell strategy templates, managed bot services, white-label platform
+
+- [**OctoBot**](https://github.com/Drakkar-Software/OctoBot) ⭐ 5.2k - Open-source bot with AI, Grid, DCA, TradingView strategies. Simple interface, 15+ exchanges.
+  - 💰 **Monetize:** Premium strategies, hosting service, configuration consulting
+
+- [**OpenTrader**](https://github.com/Open-Trader/opentrader) ⭐ 2.2k - Open-source DCA & Grid trading bot with UI. Self-hosted, pro features unlocked.
+  - 💰 **Monetize:** Managed service, custom strategy development, enterprise deployments
 
 - [**Sibyl**](https://github.com/nMaroulis/sibyl) - AI-powered crypto trading dashboard. Oracle (LLM agent layer) + Chronos (LSTM/GTU price forecasting).
   - 💰 **Monetize:** Premium analysis tool, API access to signals, white-label for exchanges
 
 ### AI Trading Agents
+
+- [**nof1.ai**](https://github.com/195440/nof1.ai) ⭐ 551 - Autonomous AI trading agent. Web-based interface with real-time market monitoring and AI-powered decision making.
+  - 💰 **Monetize:** Managed trading service, strategy licensing, white-label solutions
+
+- [**AI Trading Agent (Hyperliquid)**](https://github.com/Gajesh2007/ai-trading-agent) ⭐ 455 - AI trading agent built specifically for Hyperliquid perpetual DEX.
+  - 💰 **Monetize:** Perp trading profits, signal service, managed accounts
 
 - [**AgentTrade**](https://github.com/luffycodes/AgentTrade) - LLM-based trading system using technical analysis, news, and sentiment with reasoning.
   - 💰 **Monetize:** Signal service, managed accounts, SaaS platform
@@ -73,6 +94,23 @@
 ---
 
 ## Prediction Markets
+
+### Polymarket Tools
+
+- [**Polymarket Agents**](https://github.com/Polymarket/agents) ⭐ 2.1k - Official Polymarket AI agents. Trade autonomously using AI on prediction markets.
+  - 💰 **Monetize:** Automated trading profits, agent customization services
+
+- [**poly-maker**](https://github.com/warproxxx/poly-maker) ⭐ 850 - Market making bot for Polymarket. Configurable via Google Sheets. Provides liquidity on both sides of the book.
+  - 💰 **Monetize:** Market making spreads, managed MM services
+
+- [**Polyseer**](https://github.com/yorkeccak/Polyseer) ⭐ 562 - Polymarket alpha at the speed of now. Real-time alerts and signals.
+  - 💰 **Monetize:** Premium alerts, signal subscription, API access
+
+- [**poly_data**](https://github.com/warproxxx/poly_data) ⭐ 512 - Polymarket data retriever. Fetches, processes markets, order events, and trades.
+  - 💰 **Monetize:** Data feeds, analytics API, research reports
+
+- [**pmxt**](https://github.com/pmxt-dev/pmxt) ⭐ 471 - Unified API for trading across prediction markets (Polymarket, Kalshi, etc.).
+  - 💰 **Monetize:** Cross-platform arbitrage, multi-market bots, API service
 
 ### Arbitrage Bots
 
@@ -124,14 +162,20 @@
 - [**MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) ⭐ 44k - AI one-click HD short video generation.
   - 💰 **Monetize:** YouTube/TikTok monetization, affiliate marketing, video ads
 
+- [**CogVideo**](https://github.com/THUDM/CogVideo) ⭐ 12k - Text/image to video generation.
+  - 💰 **Monetize:** Content creation, ads, social media, video SaaS
+
+- [**SoraFM**](https://github.com/all-in-aigc/sorafm) ⭐ 1.1k - Sora AI Video Generator web interface. Generate videos with OpenAI Sora API.
+  - 💰 **Monetize:** Video generation service, SaaS platform, API reselling
+
+- [**AI Video Generator Agent**](https://github.com/davide97l/ai-video-generator) ⭐ 126 - AI agent that automatically generates and posts short videos. Full automation pipeline.
+  - 💰 **Monetize:** Faceless channel automation, content agency, video-as-a-service
+
 - [**Auto_Social_Media_Content_Generator**](https://github.com/PatrykIA/Auto_Social_Media_Content_Generator) - Automation for Facebook, Instagram, X, LinkedIn with AI text + Canva images. Auto-posts every 2 days.
   - 💰 **Monetize:** SaaS subscription, agency white-label, manage client accounts
 
 - [**ALwrity**](https://github.com/AJaySi/ALwrity) - AI Digital Marketing Platform with RAG, SEO, multilingual. Blog Writer (Research→Outline→Content→SEO→Publish).
   - 💰 **Monetize:** Monthly SaaS, per-article pricing, agency white-label
-
-- [**CogVideo**](https://github.com/THUDM/CogVideo) ⭐ 12k - Text/image to video generation.
-  - 💰 **Monetize:** Content creation, ads, social media, video SaaS
 
 ---
 
@@ -142,14 +186,23 @@ Build monetizable AI agents with these frameworks:
 - [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) ⭐ 177k - Accessible AI tools for building autonomous agents. Forge for agent creation, benchmarks, leaderboard.
   - 💰 **Monetize:** Build/sell custom agents, agent-as-a-service, enterprise licensing
 
-- [**CrewAI**](https://github.com/crewAIInc/crewAI) - Lean, fast Python framework for orchestrating role-playing AI agents with collaborative intelligence.
-  - 💰 **Monetize:** Niche agents, consulting, pre-built templates, managed hosting
-
 - [**LangChain**](https://github.com/langchain-ai/langchain) ⭐ 112k - Framework for context-aware reasoning applications.
   - 💰 **Monetize:** LLM apps with monetized endpoints, consulting, templates
 
 - [**LlamaIndex**](https://github.com/run-llama/llama_index) ⭐ 43k - Data-centric agents with RAG primitives. 500+ connectors via LlamaHub.
   - 💰 **Monetize:** Data-powered AI agents, specialized apps, consulting
+
+- [**SuperAGI**](https://github.com/TransformerOptimus/SuperAGI) ⭐ 17.2k - Dev-first open source autonomous AI agent framework. Build, manage & run useful agents quickly.
+  - 💰 **Monetize:** Custom agent development, managed infrastructure, enterprise licensing
+
+- [**VoltAgent**](https://github.com/VoltAgent/voltagent) ⭐ 5.7k - AI Agent Engineering Platform built on TypeScript. Production-ready agent orchestration.
+  - 💰 **Monetize:** Agent templates, platform licensing, consulting services
+
+- [**PraisonAI**](https://github.com/MervinPraison/PraisonAI) ⭐ 5.6k - Production-ready Multi AI Agents framework. Low-code solution for building and managing multi-agent LLM systems.
+  - 💰 **Monetize:** Pre-built agent teams, custom workflows, managed deployments
+
+- [**CrewAI**](https://github.com/crewAIInc/crewAI) - Lean, fast Python framework for orchestrating role-playing AI agents with collaborative intelligence.
+  - 💰 **Monetize:** Niche agents, consulting, pre-built templates, managed hosting
 
 - [**Pydantic-AI**](https://github.com/pydantic/pydantic-ai) - GenAI Agent Framework with validation layer for OpenAI, Anthropic, Google SDKs.
   - 💰 **Monetize:** Validated agent applications, development services
@@ -168,11 +221,20 @@ Build monetizable AI agents with these frameworks:
 
 ## Workflow Automation
 
+- [**n8n-workflow-builder**](https://github.com/makafeli/n8n-workflow-builder) ⭐ 479 - AI assistant for n8n via MCP. Connect Claude, ChatGPT to n8n for natural language workflow management.
+  - 💰 **Monetize:** Custom workflow development, automation consulting, managed n8n hosting
+
+- [**n8n-skills**](https://github.com/haunchen/n8n-skills) ⭐ 188 - n8n Workflow Automation Skills Suite designed for AI assistants. Ready-to-use workflow templates.
+  - 💰 **Monetize:** Skill marketplace, automation courses, enterprise deployments
+
 - [**N8N-Workflows**](https://github.com/DINAKAR-S/N8N-Workflows) - Real-world n8n automation for lead gen, AI agents, web scraping, social media.
   - 💰 **Monetize:** Sell workflow templates, automation consulting, monthly management
 
 - [**n8n-ai-automations**](https://github.com/lucaswalter/n8n-ai-automations) - Advanced workflows: law firm lead gen, competitor UGC analysis, personalized outreach.
   - 💰 **Monetize:** Niche workflow packages, agency white-label, training
+
+- [**ai-automation-jsons**](https://github.com/simealdana/ai-automation-jsons) - Collection of n8n workflow JSONs for AI agents, integrations, automated processes. Ready-to-import.
+  - 💰 **Monetize:** Workflow marketplace, custom development, automation agency
 
 ---
 
