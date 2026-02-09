@@ -297,6 +297,9 @@ Build monetizable AI agents with these frameworks:
 
 - [**openclaw/clawhub**](https://github.com/openclaw/clawhub) ⭐ 1.4k - Official skill directory and marketplace.
 
+- [**ClawdTalk**](https://github.com/team-telnyx/clawdtalk-client) ⭐ - Phone calling and SMS for OpenClaw via Telnyx. AI agents can make/receive calls and SMS with calendar, Jira, and web search integration.
+  - 💰 **Monetize:** AI voice agent service, automated customer support lines, appointment reminder callbacks
+
 ---
 
 ## Workflow Automation
