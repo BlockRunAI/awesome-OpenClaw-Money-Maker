@@ -45,9 +45,9 @@ Upgrade to the latest for powerful new features:
 
 ```bash
 # Upgrade now
-npm install clawrouter@0.5.7
-# or
-pip install clawrouter==0.5.7
+curl -fsSL https://raw.githubusercontent.com/BlockRunAI/ClawRouter/main/scripts/reinstall.sh | bash
+# or via npm
+npm install @blockrun/clawrouter@latest
 ```
 
 ---
