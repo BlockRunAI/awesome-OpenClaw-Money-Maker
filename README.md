@@ -29,7 +29,26 @@
 5. **LLM executes tasks** that generate income
 6. **Profit funds more usage** - creating a self-sustaining money loop
 
-**Get started:** [ClawRouter](https://github.com/BlockRunAI/ClawRouter) | [BlockRun.ai](https://blockrun.ai)
+**Get started:** [ClawRouter v0.5.7](https://github.com/BlockRunAI/ClawRouter) | [BlockRun.ai](https://blockrun.ai)
+
+### 🆕 ClawRouter v0.5.7 - Agentic Mode (Feb 2026)
+
+Upgrade to the latest for powerful new features:
+
+| Feature | Description |
+|---------|-------------|
+| **Agentic Auto-Detect** | Routes multi-step tasks to reasoning models automatically |
+| **Tool Detection** | Switches to agentic mode when tools are present |
+| **Context-Aware Routing** | Filters models by context size requirements |
+| **Session Persistence** | Maintains model selection across conversations |
+| **Free Tier Fallback** | Keeps working when wallet balance is low |
+
+```bash
+# Upgrade now
+npm install clawrouter@0.5.7
+# or
+pip install clawrouter==0.5.7
+```
 
 ---
 
@@ -334,8 +353,19 @@ Build monetizable AI agents with these frameworks:
 
 ### Infrastructure
 
-- [**ClawRouter**](https://github.com/BlockRunAI/ClawRouter) - Smart LLM router, save 78% on inference. 30+ models, one USDC wallet.
+- [**ClawRouter v0.5.7**](https://github.com/BlockRunAI/ClawRouter) - Smart LLM router, save 78% on inference. 30+ models, one USDC wallet. **New:** Agentic auto-detect, tool detection, context-aware routing.
 - [**BlockRun.ai**](https://blockrun.ai) - Pay-per-request AI via x402 micropayments.
+
+#### Popular Models on BlockRun (Feb 2026)
+
+| Model | Usage Share | Best For |
+|-------|-------------|----------|
+| DeepSeek Reasoner | 31% | Complex reasoning, code |
+| DeepSeek Chat | 22% | General chat, affordable |
+| Grok-3 | 20% | Real-time X/Twitter data |
+| OpenAI o3 | 8% | Advanced reasoning |
+| Gemini 2.5 Flash | 3% | Fast, multimodal |
+| Claude Sonnet 4 | 2% | Coding, analysis |
 
 ### Data & Trading
 
@@ -347,12 +377,14 @@ Build monetizable AI agents with these frameworks:
 
 ## Cost Considerations
 
-| Cost | Traditional | With ClawRouter |
-|------|-------------|-----------------|
+| Cost | Traditional | With ClawRouter v0.5+ |
+|------|-------------|----------------------|
 | LLM API tokens | $50 - $500+/mo | $15 - $150+/mo |
 | Hosting | $5 - $50/mo | $5 - $50/mo |
 | Data APIs | $0 - $200/mo | $0 - $200/mo |
 | **Break-even** | **~$220/month** | **~$115/month** |
+
+**Pro tip:** Use DeepSeek models for 90%+ cost savings vs GPT-4. Route to Grok-3 only when you need real-time X data.
 
 ---
 
