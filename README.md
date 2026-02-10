@@ -64,6 +64,7 @@ npm install @blockrun/clawrouter@latest
 - [AI Agent Frameworks](#ai-agent-frameworks)
 - [OpenClaw Skills](#openclaw-skills)
 - [Workflow Automation](#workflow-automation)
+- [Research & Analysis](#research--analysis)
 - [Resources & Directories](#resources--directories)
 - [Cost Considerations](#cost-considerations)
 - [Security Warnings](#security-warnings)
@@ -99,6 +100,12 @@ npm install @blockrun/clawrouter@latest
   - 💰 **Monetize:** Premium analysis tool, API access to signals, white-label for exchanges
 
 ### AI Trading Agents
+
+- [**OpenBB**](https://github.com/OpenBB-finance/OpenBB) ⭐ 60k - Financial data platform for analysts, quants and AI agents. Open-source investment research terminal with AI copilot.
+  - 💰 **Monetize:** Custom research tools, financial data SaaS, enterprise integrations, quant consulting
+
+- [**GOAT SDK**](https://github.com/goat-sdk/goat) ⭐ 951 - The leading agentic finance toolkit for AI agents. Connect agents to DeFi protocols, wallets, and on-chain actions.
+  - 💰 **Monetize:** Agent-powered trading bots, DeFi automation, on-chain agent services
 
 - [**nof1.ai**](https://github.com/195440/nof1.ai) ⭐ 551 - Autonomous AI trading agent. Web-based interface with real-time market monitoring and AI-powered decision making.
   - 💰 **Monetize:** Managed trading service, strategy licensing, white-label solutions
@@ -229,6 +236,9 @@ npm install @blockrun/clawrouter@latest
 
 ### Lead Generation
 
+- [**ScrapeGraphAI**](https://github.com/ScrapeGraphAI/Scrapegraph-ai) ⭐ 22.6k - Python scraper based on AI. Uses LLMs to understand and extract structured data from any website.
+  - 💰 **Monetize:** Intelligent scraping SaaS, data extraction services, lead enrichment platform
+
 - [**ai-lead-generator**](https://github.com/brightdata/ai-lead-generator) - AI-powered lead gen using Bright Data scraping + OpenAI for qualification/enrichment. Streamlit UI with instant lead scoring.
   - 💰 **Monetize:** Sell lead lists, B2B SaaS subscription, charge per lead
 
@@ -250,6 +260,9 @@ npm install @blockrun/clawrouter@latest
 
 - [**MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) ⭐ 44k - AI one-click HD short video generation.
   - 💰 **Monetize:** YouTube/TikTok monetization, affiliate marketing, video ads
+
+- [**MoneyPrinterV2**](https://github.com/FujiwaraChoki/MoneyPrinterV2) ⭐ 13k - Automate the process of making money online. Full automation pipeline for content creation and publishing.
+  - 💰 **Monetize:** Faceless channels, automated content farms, video-as-a-service
 
 - [**CogVideo**](https://github.com/THUDM/CogVideo) ⭐ 12k - Text/image to video generation.
   - 💰 **Monetize:** Content creation, ads, social media, video SaaS
@@ -282,8 +295,19 @@ npm install @blockrun/clawrouter@latest
 
 Build monetizable AI agents with these frameworks:
 
+### General Agent Frameworks
+
 - [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) ⭐ 177k - Accessible AI tools for building autonomous agents. Forge for agent creation, benchmarks, leaderboard.
   - 💰 **Monetize:** Build/sell custom agents, agent-as-a-service, enterprise licensing
+
+- [**MetaGPT**](https://github.com/geekan/MetaGPT) ⭐ 64k - The Multi-Agent Framework: First AI Software Company. Assigns roles to agents (Product Manager, Architect, Engineer).
+  - 💰 **Monetize:** AI software development agency, code generation SaaS, enterprise consulting
+
+- [**Open Interpreter**](https://github.com/openinterpreter/open-interpreter) ⭐ 62k - A natural language interface for computers. Run code, control your computer with plain English.
+  - 💰 **Monetize:** Automation services, enterprise deployments, managed computer-use agents
+
+- [**Microsoft Autogen**](https://github.com/microsoft/autogen) ⭐ 54.5k - A programming framework for agentic AI. Multi-agent conversations, tool use, code execution.
+  - 💰 **Monetize:** Enterprise agent solutions, consulting, custom multi-agent systems
 
 - [**LangChain**](https://github.com/langchain-ai/langchain) ⭐ 112k - Framework for context-aware reasoning applications.
   - 💰 **Monetize:** LLM apps with monetized endpoints, consulting, templates
@@ -291,8 +315,17 @@ Build monetizable AI agents with these frameworks:
 - [**LlamaIndex**](https://github.com/run-llama/llama_index) ⭐ 43k - Data-centric agents with RAG primitives. 500+ connectors via LlamaHub.
   - 💰 **Monetize:** Data-powered AI agents, specialized apps, consulting
 
+- [**smolagents**](https://github.com/huggingface/smolagents) ⭐ 25.4k - HuggingFace's barebones library for agents that think in code. Simple, hackable, powerful.
+  - 💰 **Monetize:** Custom coding agents, agent templates, enterprise integrations
+
 - [**SuperAGI**](https://github.com/TransformerOptimus/SuperAGI) ⭐ 17.2k - Dev-first open source autonomous AI agent framework. Build, manage & run useful agents quickly.
   - 💰 **Monetize:** Custom agent development, managed infrastructure, enterprise licensing
+
+- [**Eliza**](https://github.com/elizaOS/eliza) ⭐ 17.5k - Autonomous agents for everyone. Popular framework for crypto/social media agents. Multi-platform (Discord, Twitter, Telegram).
+  - 💰 **Monetize:** Social media agents, crypto trading bots, community management agents
+
+- [**Qwen-Agent**](https://github.com/QwenLM/Qwen-Agent) ⭐ 13.2k - Agent framework built on Qwen. Features Function Calling, MCP, Code Interpreter, RAG, Chrome extension.
+  - 💰 **Monetize:** Qwen-powered apps, MCP integrations, browser extensions
 
 - [**VoltAgent**](https://github.com/VoltAgent/voltagent) ⭐ 5.7k - AI Agent Engineering Platform built on TypeScript. Production-ready agent orchestration.
   - 💰 **Monetize:** Agent templates, platform licensing, consulting services
@@ -300,11 +333,31 @@ Build monetizable AI agents with these frameworks:
 - [**PraisonAI**](https://github.com/MervinPraison/PraisonAI) ⭐ 5.6k - Production-ready Multi AI Agents framework. Low-code solution for building and managing multi-agent LLM systems.
   - 💰 **Monetize:** Pre-built agent teams, custom workflows, managed deployments
 
+- [**AgentOps**](https://github.com/AgentOps-AI/agentops) ⭐ 5.3k - Python SDK for AI agent monitoring, LLM cost tracking, benchmarking. Integrates with CrewAI, Langchain, Autogen.
+  - 💰 **Monetize:** Agent observability platform, enterprise monitoring, cost optimization consulting
+
 - [**CrewAI**](https://github.com/crewAIInc/crewAI) - Lean, fast Python framework for orchestrating role-playing AI agents with collaborative intelligence.
   - 💰 **Monetize:** Niche agents, consulting, pre-built templates, managed hosting
 
 - [**Pydantic-AI**](https://github.com/pydantic/pydantic-ai) - GenAI Agent Framework with validation layer for OpenAI, Anthropic, Google SDKs.
   - 💰 **Monetize:** Validated agent applications, development services
+
+### Browser Automation Agents
+
+- [**browser-use**](https://github.com/browser-use/browser-use) ⭐ 78.1k - Make websites accessible for AI agents. Automate any web task with natural language.
+  - 💰 **Monetize:** Web automation services, form filling bots, data extraction, testing automation
+
+- [**Stagehand**](https://github.com/browserbase/stagehand) ⭐ 21k - The AI Browser Automation Framework. Built on Playwright with AI-powered element selection.
+  - 💰 **Monetize:** Web scraping services, testing automation, browser-based RPA
+
+- [**Skyvern**](https://github.com/Skyvern-AI/skyvern) ⭐ 20.4k - Automate browser-based workflows with AI. Computer vision + LLM for robust web automation.
+  - 💰 **Monetize:** Enterprise browser automation, form filling services, web RPA
+
+- [**LaVague**](https://github.com/lavague-ai/LaVague) ⭐ 6.3k - Large Action Model framework to develop AI Web Agents. Natural language to browser actions.
+  - 💰 **Monetize:** Web automation platform, custom browser agents, enterprise deployments
+
+- [**ShowUI**](https://github.com/showlab/ShowUI) ⭐ 1.7k - Vision-Language-Action model for GUI Agent & Computer Use. CVPR 2025 paper implementation.
+  - 💰 **Monetize:** Desktop automation, GUI testing, accessibility services
 
 ---
 
@@ -340,9 +393,18 @@ Build monetizable AI agents with these frameworks:
 
 ---
 
+## Research & Analysis
+
+- [**GPT Researcher**](https://github.com/assafelovic/gpt-researcher) ⭐ 25.3k - Autonomous agent that conducts deep research on any topic. Generates comprehensive reports from multiple sources.
+  - 💰 **Monetize:** Research-as-a-service, market analysis reports, competitive intelligence, due diligence automation
+
+---
+
 ## Resources & Directories
 
 ### Awesome Lists
+
+- [**e2b-dev/awesome-ai-agents**](https://github.com/e2b-dev/awesome-ai-agents) ⭐ 25.7k - Comprehensive list of AI autonomous agents. Well-maintained with categories.
 
 - [**500-AI-Agents-Projects**](https://github.com/ashishpatel26/500-AI-Agents-Projects) - Curated AI agent use cases across industries (healthcare, finance, education, retail).
 
