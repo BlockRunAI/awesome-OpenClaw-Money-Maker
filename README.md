@@ -29,25 +29,31 @@
 5. **LLM executes tasks** that generate income
 6. **Profit funds more usage** - creating a self-sustaining money loop
 
-**Get started:** [ClawRouter v0.5.7](https://github.com/BlockRunAI/ClawRouter) | [BlockRun.ai](https://blockrun.ai)
+**Get started:** [ClawRouter v0.8.18](https://github.com/BlockRunAI/ClawRouter) | [BlockRun.ai](https://blockrun.ai)
 
-### 🆕 ClawRouter v0.5.7 - Agentic Mode (Feb 2026)
+### 🆕 ClawRouter v0.8.18 - Production Ready (Feb 2026)
 
-Upgrade to the latest for powerful new features:
+Latest version with battle-tested features:
 
 | Feature | Description |
 |---------|-------------|
-| **Agentic Auto-Detect** | Routes multi-step tasks to reasoning models automatically |
-| **Tool Detection** | Switches to agentic mode when tools are present |
+| **Agentic Momentum** | Proper `finish_reason: tool_calls` for multi-step autonomous workflows |
+| **15-Dimension Routing** | Local scoring (<1ms) classifies prompts into SIMPLE/MEDIUM/COMPLEX/REASONING |
+| **Smart Fallback Chains** | Auto-retry with next-best model on provider errors |
 | **Context-Aware Routing** | Filters models by context size requirements |
-| **Session Persistence** | Maintains model selection across conversations |
-| **Free Tier Fallback** | Keeps working when wallet balance is low |
+| **Reasoning Model Support** | Handles `reasoning_content` for o3/DeepSeek-R1/Grok-reasoning |
+| **Free Tier Fallback** | Falls back to nvidia/gpt-oss-120b when wallet is empty |
+| **Rate Limit Awareness** | Deprioritizes rate-limited models automatically |
 
 ```bash
-# Upgrade now
-curl -fsSL https://raw.githubusercontent.com/BlockRunAI/ClawRouter/main/scripts/reinstall.sh | bash
-# or via npm
+# Install via OpenClaw
+openclaw plugins install @blockrun/clawrouter
+
+# Or via npm
 npm install @blockrun/clawrouter@latest
+
+# Or standalone
+curl -fsSL https://raw.githubusercontent.com/BlockRunAI/ClawRouter/main/scripts/reinstall.sh | bash
 ```
 
 ---
@@ -418,19 +424,19 @@ Build monetizable AI agents with these frameworks:
 
 ### Infrastructure
 
-- [**ClawRouter v0.5.7**](https://github.com/BlockRunAI/ClawRouter) - Smart LLM router, save 78% on inference. 30+ models, one USDC wallet. **New:** Agentic auto-detect, tool detection, context-aware routing.
+- [**ClawRouter v0.8.18**](https://github.com/BlockRunAI/ClawRouter) - Smart LLM router, save 78-96% on inference. 30+ models, one USDC wallet. **Features:** Agentic momentum, 15-dimension routing, smart fallbacks, reasoning model support.
 - [**BlockRun.ai**](https://blockrun.ai) - Pay-per-request AI via x402 micropayments.
 
 #### Popular Models on BlockRun (Feb 2026)
 
 | Model | Usage Share | Best For |
 |-------|-------------|----------|
-| DeepSeek Reasoner | 31% | Complex reasoning, code |
-| DeepSeek Chat | 22% | General chat, affordable |
-| Grok-3 | 20% | Real-time X/Twitter data |
-| OpenAI o3 | 8% | Advanced reasoning |
-| Gemini 2.5 Flash | 3% | Fast, multimodal |
-| Claude Sonnet 4 | 2% | Coding, analysis |
+| Grok Code Fast | 42% | Fast coding, analysis |
+| Grok-4 Reasoning | 20% | Complex reasoning tasks |
+| Claude Sonnet 4 | 12% | Coding, agentic workflows |
+| Gemini 2.5 Pro | 8% | Long context, multimodal |
+| DeepSeek Chat | 6% | General chat, affordable |
+| OpenAI o3 | 4% | Advanced reasoning |
 
 ### Data & Trading
 
@@ -442,7 +448,7 @@ Build monetizable AI agents with these frameworks:
 
 ## Cost Considerations
 
-| Cost | Traditional | With ClawRouter v0.5+ |
+| Cost | Traditional | With ClawRouter v0.8+ |
 |------|-------------|----------------------|
 | LLM API tokens | $50 - $500+/mo | $15 - $150+/mo |
 | Hosting | $5 - $50/mo | $5 - $50/mo |
