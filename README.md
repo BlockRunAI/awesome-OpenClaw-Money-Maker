@@ -152,10 +152,16 @@ curl -fsSL https://raw.githubusercontent.com/BlockRunAI/ClawRouter/main/scripts/
 - [**mev-template-rs**](https://github.com/degatchi/mev-template-rs) ⭐ 727 - Bootstrap MEV bot strategies with Rust boilerplate.
   - 💰 **Monetize:** Build custom MEV strategies, consulting, bot-as-a-service
 
-- [**mev-templates**](https://github.com/solidquant/mev-templates) ⭐ 570 - MEV templates in Python/Javascript/Rust. DEX flashloan arbitrage.
+- [**Arbitrage MEV BOT**](https://github.com/sOLarFLaMEPyL/Arbitrage_Mev_BOT) ⭐ 613 - Contract for MEV: flash loans, arbitrage, liquidations. Ready to deploy and use.
+  - 💰 **Monetize:** Deploy and run MEV strategies, consulting, bot customization
+
+- [**mev-templates**](https://github.com/solidquant/mev-templates) ⭐ 567 - MEV templates in Python/Javascript/Rust. DEX flashloan arbitrage.
   - 💰 **Monetize:** Cross-DEX arbitrage, flashloan profits, strategy development
 
-- [**Loom**](https://github.com/dexloom/loom) ⭐ 333 - MEV Bot based on Alloy. Modern EVM MEV extraction.
+- [**Rust Solana MEV Bot**](https://github.com/SaoXuan/rust-mev-bot-shared) ⭐ 443 - Rust Solana MEV 套利机器人. High-performance arbitrage bot for Solana.
+  - 💰 **Monetize:** Solana arbitrage, MEV extraction, bot licensing
+
+- [**Loom**](https://github.com/dexloom/loom) ⭐ 331 - MEV Bot based on Alloy. Modern EVM MEV extraction.
   - 💰 **Monetize:** EVM MEV extraction, liquidations, arbitrage strategies
 
 ---
@@ -164,11 +170,20 @@ curl -fsSL https://raw.githubusercontent.com/BlockRunAI/ClawRouter/main/scripts/
 
 ### Polymarket Tools
 
-- [**Polymarket Agents**](https://github.com/Polymarket/agents) ⭐ 2.1k - Official Polymarket AI agents. Trade autonomously using AI on prediction markets.
+- [**Polymarket Agents**](https://github.com/Polymarket/agents) ⭐ 2.2k - Official Polymarket AI agents. Trade autonomously using AI on prediction markets.
   - 💰 **Monetize:** Automated trading profits, agent customization services
 
-- [**poly-maker**](https://github.com/warproxxx/poly-maker) ⭐ 850 - Market making bot for Polymarket. Configurable via Google Sheets. Provides liquidity on both sides of the book.
+- [**Prediction Market Analysis**](https://github.com/Jon-Becker/prediction-market-analysis) ⭐ 1.7k - Framework for collecting and analyzing prediction market data. Largest public dataset of Polymarket and Kalshi market/trade data.
+  - 💰 **Monetize:** Data feeds, analytics API, research reports, trading signals
+
+- [**poly-maker**](https://github.com/warproxxx/poly-maker) ⭐ 856 - Market making bot for Polymarket. Configurable via Google Sheets. Provides liquidity on both sides of the book.
   - 💰 **Monetize:** Market making spreads, managed MM services
+
+- [**Polymarket Copy Trading Bot**](https://github.com/RandyTas/polymarket-copytrading-bot) ⭐ 822 - Copy trading bot for Polymarket. Follow successful traders automatically.
+  - 💰 **Monetize:** Copy trading service, signal selling, managed accounts
+
+- [**py-clob-client**](https://github.com/Polymarket/py-clob-client) ⭐ 785 - Official Python client for the Polymarket CLOB (Central Limit Order Book).
+  - 💰 **Monetize:** Build custom trading bots, API services, consulting
 
 - [**Polyseer**](https://github.com/yorkeccak/Polyseer) ⭐ 562 - Polymarket alpha at the speed of now. Real-time alerts and signals.
   - 💰 **Monetize:** Premium alerts, signal subscription, API access
@@ -176,8 +191,17 @@ curl -fsSL https://raw.githubusercontent.com/BlockRunAI/ClawRouter/main/scripts/
 - [**poly_data**](https://github.com/warproxxx/poly_data) ⭐ 512 - Polymarket data retriever. Fetches, processes markets, order events, and trades.
   - 💰 **Monetize:** Data feeds, analytics API, research reports
 
-- [**pmxt**](https://github.com/pmxt-dev/pmxt) ⭐ 471 - Unified API for trading across prediction markets (Polymarket, Kalshi, etc.).
+- [**pmxt**](https://github.com/pmxt-dev/pmxt) ⭐ 592 - Unified API for trading across prediction markets (Polymarket, Kalshi, etc.).
   - 💰 **Monetize:** Cross-platform arbitrage, multi-market bots, API service
+
+- [**PolymarketBTC15mAssistant**](https://github.com/FrondEnt/PolymarketBTC15mAssistant) ⭐ 490 - Real-time Polymarket BTC 15m trading assistant for every trader.
+  - 💰 **Monetize:** Trading signals, subscription service, managed trading
+
+- [**Cross-Market State Fusion**](https://github.com/humanplane/cross-market-state-fusion) ⭐ 343 - RL agent fusing real-time Binance futures data into Polymarket prediction markets. On-device training with MLX on Apple Silicon.
+  - 💰 **Monetize:** Cross-market signals, AI model licensing, trading service
+
+- [**Polymarket Spike Bot**](https://github.com/Trust412/Polymarket-spike-bot-v1) ⭐ 310 - High-frequency Polymarket trading bot with real-time price monitoring, automated spike detection, and smart order execution.
+  - 💰 **Monetize:** HFT profits, bot licensing, managed trading
 
 ### Arbitrage Bots
 
@@ -303,6 +327,12 @@ Build monetizable AI agents with these frameworks:
 
 ### General Agent Frameworks
 
+- [**Awesome LLM Apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) ⭐ 95.4k - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini, and open-source models.
+  - 💰 **Monetize:** Clone and customize apps, build SaaS products, consulting services
+
+- [**Gemini CLI**](https://github.com/google-gemini/gemini-cli) ⭐ 94.6k - Google's open-source AI agent that brings the power of Gemini directly into your terminal.
+  - 💰 **Monetize:** Automation scripts, developer tools, enterprise integrations
+
 - [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) ⭐ 177k - Accessible AI tools for building autonomous agents. Forge for agent creation, benchmarks, leaderboard.
   - 💰 **Monetize:** Build/sell custom agents, agent-as-a-service, enterprise licensing
 
@@ -312,8 +342,32 @@ Build monetizable AI agents with these frameworks:
 - [**Open Interpreter**](https://github.com/openinterpreter/open-interpreter) ⭐ 62k - A natural language interface for computers. Run code, control your computer with plain English.
   - 💰 **Monetize:** Automation services, enterprise deployments, managed computer-use agents
 
+- [**Anything LLM**](https://github.com/Mintplex-Labs/anything-llm) ⭐ 54.6k - All-in-one Desktop & Docker AI application with built-in RAG, AI agents, no-code agent builder, MCP compatibility.
+  - 💰 **Monetize:** Custom deployments, enterprise hosting, white-label platform
+
 - [**Microsoft Autogen**](https://github.com/microsoft/autogen) ⭐ 54.5k - A programming framework for agentic AI. Multi-agent conversations, tool use, code execution.
   - 💰 **Monetize:** Enterprise agent solutions, consulting, custom multi-agent systems
+
+- [**AI Agents for Beginners**](https://github.com/microsoft/ai-agents-for-beginners) ⭐ 50.6k - Microsoft's 12 lessons to get started building AI agents. Comprehensive curriculum.
+  - 💰 **Monetize:** Training courses, bootcamps, enterprise workshops
+
+- [**Flowise**](https://github.com/FlowiseAI/Flowise) ⭐ 49.1k - Build AI Agents visually. Drag-and-drop LLM flow builder with API endpoints.
+  - 💰 **Monetize:** Custom workflow development, managed hosting, enterprise deployments
+
+- [**Mem0**](https://github.com/mem0ai/mem0) ⭐ 47.4k - Universal memory layer for AI Agents. Persistent memory across sessions.
+  - 💰 **Monetize:** Memory-as-a-service, enterprise integrations, custom implementations
+
+- [**CrewAI**](https://github.com/crewAIInc/crewAI) ⭐ 44.2k - Lean, fast Python framework for orchestrating role-playing AI agents with collaborative intelligence.
+  - 💰 **Monetize:** Niche agents, consulting, pre-built templates, managed hosting
+
+- [**ToolJet**](https://github.com/ToolJet/ToolJet) ⭐ 37.4k - Open-source foundation of ToolJet AI - AI-native platform for building internal tools, dashboards, workflows and AI agents.
+  - 💰 **Monetize:** Internal tool development, enterprise licensing, custom integrations
+
+- [**AgentGPT**](https://github.com/reworkd/AgentGPT) ⭐ 35.7k - Assemble, configure, and deploy autonomous AI Agents in your browser.
+  - 💰 **Monetize:** Custom agent development, SaaS platform, enterprise deployments
+
+- [**Block Goose**](https://github.com/block/goose) ⭐ 30.5k - Open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM.
+  - 💰 **Monetize:** Development automation, custom extensions, enterprise licensing
 
 - [**LangChain**](https://github.com/langchain-ai/langchain) ⭐ 112k - Framework for context-aware reasoning applications.
   - 💰 **Monetize:** LLM apps with monetized endpoints, consulting, templates
@@ -326,6 +380,42 @@ Build monetizable AI agents with these frameworks:
 
 - [**SuperAGI**](https://github.com/TransformerOptimus/SuperAGI) ⭐ 17.2k - Dev-first open source autonomous AI agent framework. Build, manage & run useful agents quickly.
   - 💰 **Monetize:** Custom agent development, managed infrastructure, enterprise licensing
+
+- [**Jobs Applier AI Agent (AIHawk)**](https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk) ⭐ 29.3k - AI agent that automates job hunt by applying to multiple jobs in a tailored way.
+  - 💰 **Monetize:** Job application service, subscription platform, career coaching integration
+
+- [**UI-TARS Desktop**](https://github.com/bytedance/UI-TARS-desktop) ⭐ 28k - ByteDance's open-source multimodal AI agent stack connecting AI models and agent infra.
+  - 💰 **Monetize:** Desktop automation, enterprise deployments, custom integrations
+
+- [**Composio**](https://github.com/ComposioHQ/composio) ⭐ 26.6k - Equips AI agents & LLMs with 100+ high-quality integrations via function calling.
+  - 💰 **Monetize:** Integration platform, custom connectors, enterprise licensing
+
+- [**Sim Studio**](https://github.com/simstudioai/sim) ⭐ 26.4k - Open-source platform to build and deploy AI agent workflows.
+  - 💰 **Monetize:** Workflow templates, managed hosting, enterprise solutions
+
+- [**Warp**](https://github.com/warpdotdev/Warp) ⭐ 25.9k - The agentic development environment, built for coding with multiple AI agents.
+  - 💰 **Monetize:** Developer tool licensing, enterprise features, custom integrations
+
+- [**Graphiti**](https://github.com/getzep/graphiti) ⭐ 22.8k - Build real-time knowledge graphs for AI agents. Persistent structured memory.
+  - 💰 **Monetize:** Knowledge graph services, enterprise memory solutions, consulting
+
+- [**Roo Code**](https://github.com/RooCodeInc/Roo-Code) ⭐ 22.2k - A whole dev team of AI agents in your code editor.
+  - 💰 **Monetize:** Enterprise licensing, custom agent development, training
+
+- [**Activepieces**](https://github.com/activepieces/activepieces) ⭐ 20.8k - AI Agents & MCPs & AI Workflow Automation with ~400 MCP servers for AI agents.
+  - 💰 **Monetize:** Workflow marketplace, managed hosting, enterprise integrations
+
+- [**GenAI Agents**](https://github.com/NirDiamant/GenAI_Agents) ⭐ 20k - In-depth tutorials and implementations for various Generative AI Agent techniques.
+  - 💰 **Monetize:** Training courses, enterprise workshops, consulting
+
+- [**Coze Studio**](https://github.com/coze-dev/coze-studio) ⭐ 19.9k - AI agent development platform with all-in-one visual tools for creation, debugging, and deployment.
+  - 💰 **Monetize:** Agent marketplace, managed platform, enterprise features
+
+- [**Suna (Kortix)**](https://github.com/kortix-ai/suna) ⭐ 19.4k - Build, manage and train AI Agents with Kortix platform.
+  - 💰 **Monetize:** Agent training services, managed platform, enterprise licensing
+
+- [**Qwen Code**](https://github.com/QwenLM/qwen-code) ⭐ 18.4k - Open-source AI agent that lives in your terminal, powered by Qwen.
+  - 💰 **Monetize:** Developer automation, enterprise licensing, custom extensions
 
 - [**Eliza**](https://github.com/elizaOS/eliza) ⭐ 17.5k - Autonomous agents for everyone. Popular framework for crypto/social media agents. Multi-platform (Discord, Twitter, Telegram).
   - 💰 **Monetize:** Social media agents, crypto trading bots, community management agents
