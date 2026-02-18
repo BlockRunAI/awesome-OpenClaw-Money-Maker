@@ -23,37 +23,41 @@
 ```
 
 1. **Fund your wallet** with USDC (on Base)
-2. **OpenClaw uses [ClawRouter](https://github.com/BlockRunAI/ClawRouter)** to access 30+ LLMs
+2. **OpenClaw uses [ClawRouter](https://github.com/BlockRunAI/ClawRouter)** to access 40+ LLMs
 3. **Pay-per-request** via x402 micropayments - no API keys, no subscriptions
-4. **Save up to 78%** on inference costs with smart model routing
+4. **Save up to 92%** on inference costs with smart model routing
 5. **LLM executes tasks** that generate income
 6. **Profit funds more usage** - creating a self-sustaining money loop
 
-**Get started:** [ClawRouter v0.8.18](https://github.com/BlockRunAI/ClawRouter) | [BlockRun.ai](https://blockrun.ai)
+**Get started:** [ClawRouter v0.9.19](https://github.com/BlockRunAI/ClawRouter) ⭐ 2.7k | [BlockRun.ai](https://blockrun.ai)
 
-### 🆕 ClawRouter v0.8.18 - Production Ready (Feb 2026)
+### 🆕 ClawRouter v0.9.19 - Production Ready (Feb 2026)
 
-Latest version with battle-tested features:
+Latest version with 40+ models, response caching, and battle-tested features:
 
 | Feature | Description |
 |---------|-------------|
-| **Agentic Momentum** | Proper `finish_reason: tool_calls` for multi-step autonomous workflows |
+| **Response Caching** | LLM response caching with SHA-256 hashing, 10min TTL, 200-entry LRU cache |
+| **Routing Profiles** | 4 modes: `auto` (balanced), `eco` (max savings), `premium` (best quality), `free` (zero cost) |
+| **Context-Length Routing** | Auto-filters models that can't handle request context size |
+| **Agentic Auto-Detect** | Intelligent routing for multi-step autonomous workflows |
+| **Tool Detection** | Auto-switches modes when `tools` array is detected |
 | **15-Dimension Routing** | Local scoring (<1ms) classifies prompts into SIMPLE/MEDIUM/COMPLEX/REASONING |
+| **Session Persistence** | 1-hour model pinning for multi-turn conversations |
 | **Smart Fallback Chains** | Auto-retry with next-best model on provider errors |
-| **Context-Aware Routing** | Filters models by context size requirements |
-| **Reasoning Model Support** | Handles `reasoning_content` for o3/DeepSeek-R1/Grok-reasoning |
+| **Model Aliases** | `/model codex`, `/model opus`, `/model sonnet`, `/model kimi`, `/model free` |
+| **Reasoning Model Support** | Handles `reasoning_content` for O3/O4/DeepSeek-R1/Grok-reasoning |
 | **Free Tier Fallback** | Falls back to nvidia/gpt-oss-120b when wallet is empty |
-| **Rate Limit Awareness** | Deprioritizes rate-limited models automatically |
 
 ```bash
 # Install via OpenClaw
 openclaw plugins install @blockrun/clawrouter
 
 # Or via npm
-npm install @blockrun/clawrouter@latest
+npm install @blockrun/clawrouter@0.9.19
 
 # Or standalone
-curl -fsSL https://raw.githubusercontent.com/BlockRunAI/ClawRouter/main/scripts/reinstall.sh | bash
+curl -fsSL https://blockrun.ai/ClawRouter-update | bash
 ```
 
 ---
@@ -70,6 +74,7 @@ curl -fsSL https://raw.githubusercontent.com/BlockRunAI/ClawRouter/main/scripts/
 - [AI Agent Frameworks](#ai-agent-frameworks)
 - [OpenClaw Skills](#openclaw-skills)
 - [Workflow Automation](#workflow-automation)
+- [MCP Servers & Tools](#mcp-servers--tools)
 - [Research & Analysis](#research--analysis)
 - [Resources & Directories](#resources--directories)
 - [Cost Considerations](#cost-considerations)
@@ -489,6 +494,59 @@ Build monetizable AI agents with these frameworks:
 
 ---
 
+## MCP Servers & Tools
+
+Model Context Protocol (MCP) enables AI agents to connect to external tools and data sources. These servers unlock new monetization opportunities for agents.
+
+### Infrastructure
+
+- [**Awesome MCP Servers**](https://github.com/punkpeye/awesome-mcp-servers) ⭐ 81k - The definitive collection of MCP servers. 500+ servers across all categories.
+  - 💰 **Monetize:** Build and list premium MCP servers, consulting for MCP integration
+
+- [**Context7**](https://github.com/upstash/context7) ⭐ 46k - Up-to-date code documentation MCP server. Gives AI agents current docs instead of stale training data.
+  - 💰 **Monetize:** Documentation services, enterprise code intelligence, dev tool integrations
+
+- [**FastMCP**](https://github.com/jlowin/fastmcp) ⭐ 22.9k - The fast, Pythonic way to build MCP servers. Production-ready framework for building custom servers.
+  - 💰 **Monetize:** Custom MCP server development, consulting, enterprise integrations
+
+- [**MCP-Use**](https://github.com/mcp-use/mcp-use) ⭐ 9.2k - Easiest way to interact with MCP servers using custom agents. Agent-first MCP client.
+  - 💰 **Monetize:** Agent development services, MCP integration consulting
+
+### Data & APIs
+
+- [**MindsDB**](https://github.com/mindsdb/mindsdb) ⭐ 38.5k - Federated Query Engine for AI. The only MCP Server you'll ever need for database access.
+  - 💰 **Monetize:** Data pipeline services, enterprise AI data integration, managed MindsDB hosting
+
+- [**GitHub MCP Server**](https://github.com/github/github-mcp-server) ⭐ 27k - GitHub's official MCP server. Agents can manage repos, issues, PRs, code search.
+  - 💰 **Monetize:** DevOps automation, code review agents, repo management bots
+
+- [**GenAI Toolbox**](https://github.com/googleapis/genai-toolbox) ⭐ 13k - Google's MCP Toolbox for Databases. Connect AI to PostgreSQL, MySQL, BigQuery, Spanner.
+  - 💰 **Monetize:** Database automation, data extraction services, analytics pipelines
+
+- [**Git-MCP**](https://github.com/idosal/git-mcp) ⭐ 7.6k - Free remote MCP server for any GitHub project. Eliminates code hallucinations with real repo context.
+  - 💰 **Monetize:** Code accuracy services, developer tool integrations
+
+### Browser & Automation
+
+- [**Playwright MCP**](https://github.com/microsoft/playwright-mcp) ⭐ 27.3k - Microsoft's official Playwright MCP server. Full browser automation for AI agents.
+  - 💰 **Monetize:** Web scraping services, testing automation, browser-based RPA
+
+- [**MCP Chrome**](https://github.com/hangwin/mcp-chrome) ⭐ 10.4k - Chrome extension MCP server. Browser automation, content analysis, semantic search.
+  - 💰 **Monetize:** Chrome automation bots, content extraction, research automation
+
+- [**Figma Context MCP**](https://github.com/GLips/Figma-Context-MCP) ⭐ 13.2k - Provides Figma layout info to AI coding agents. Design-to-code automation.
+  - 💰 **Monetize:** Design-to-code services, UI automation, Figma workflow tools
+
+### Security & Research
+
+- [**HexStrike AI**](https://github.com/0x4m4/hexstrike-ai) ⭐ 6.9k - MCP server with 150+ cybersecurity tools. Automated pentesting, vulnerability discovery, bug bounty automation.
+  - 💰 **Monetize:** Security auditing services, bug bounty automation, penetration testing
+
+- [**Serena**](https://github.com/oraios/serena) ⭐ 20.3k - Coding agent toolkit with semantic retrieval and editing. Production-ready code intelligence.
+  - 💰 **Monetize:** Code refactoring services, codebase analysis, developer tools
+
+---
+
 ## Research & Analysis
 
 - [**GPT Researcher**](https://github.com/assafelovic/gpt-researcher) ⭐ 25.3k - Autonomous agent that conducts deep research on any topic. Generates comprehensive reports from multiple sources.
@@ -514,19 +572,22 @@ Build monetizable AI agents with these frameworks:
 
 ### Infrastructure
 
-- [**ClawRouter v0.8.18**](https://github.com/BlockRunAI/ClawRouter) - Smart LLM router, save 78-96% on inference. 30+ models, one USDC wallet. **Features:** Agentic momentum, 15-dimension routing, smart fallbacks, reasoning model support.
+- [**ClawRouter v0.9.19**](https://github.com/BlockRunAI/ClawRouter) ⭐ 2.7k - Smart LLM router, save up to 92% on inference. 40+ models, one USDC wallet. **Features:** Response caching, 4 routing profiles, context-length routing, agentic auto-detect, tool detection, session persistence.
 - [**BlockRun.ai**](https://blockrun.ai) - Pay-per-request AI via x402 micropayments.
 
 #### Popular Models on BlockRun (Feb 2026)
 
-| Model | Usage Share | Best For |
-|-------|-------------|----------|
-| Grok Code Fast | 42% | Fast coding, analysis |
-| Grok-4 Reasoning | 20% | Complex reasoning tasks |
-| Claude Sonnet 4 | 12% | Coding, agentic workflows |
-| Gemini 2.5 Pro | 8% | Long context, multimodal |
-| DeepSeek Chat | 6% | General chat, affordable |
-| OpenAI o3 | 4% | Advanced reasoning |
+| Model | Pricing | Best For |
+|-------|---------|----------|
+| Grok Code Fast | $0.20/$1.50 | Fast coding, agentic tasks |
+| GPT-5.2-Codex | $2.50/$12.00 | Agentic coding (NEW) |
+| Claude Opus 4.6 | $5.00/$25.00 | Premium quality, reasoning (NEW) |
+| Kimi K2.5 | $0.50/$2.40 | 262K context, 200+ tool chains (NEW) |
+| Gemini 3 Pro | $2.00/$12.00 | Multimodal, reasoning (NEW) |
+| Claude Sonnet 4 | $3.00/$15.00 | Coding, agentic workflows |
+| DeepSeek V3.2 | $0.14/$0.28 | Budget-friendly, general |
+| OpenAI O4-mini | NEW | Fast reasoning (NEW) |
+| NVIDIA GPT-OSS-120B | $0/$0 | Free tier fallback |
 
 ### Data & Trading
 
@@ -538,14 +599,16 @@ Build monetizable AI agents with these frameworks:
 
 ## Cost Considerations
 
-| Cost | Traditional | With ClawRouter v0.8+ |
+| Cost | Traditional | With ClawRouter v0.9.19 |
 |------|-------------|----------------------|
-| LLM API tokens | $50 - $500+/mo | $15 - $150+/mo |
+| LLM API tokens | $50 - $500+/mo | $4 - $40+/mo |
 | Hosting | $5 - $50/mo | $5 - $50/mo |
 | Data APIs | $0 - $200/mo | $0 - $200/mo |
-| **Break-even** | **~$220/month** | **~$115/month** |
+| **Break-even** | **~$220/month** | **~$75/month** |
 
-**Pro tip:** Use DeepSeek models for 90%+ cost savings vs GPT-4. Route to Grok-3 only when you need real-time X data.
+**Blended cost:** $2.05/M tokens vs $25/M (Opus) = **92% savings**
+
+**Pro tip:** Use `/model eco` profile for maximum savings. Kimi K2.5 offers 262K context at $0.50/$2.40 - great for long documents.
 
 ---
 
