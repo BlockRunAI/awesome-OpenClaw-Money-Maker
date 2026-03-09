@@ -531,6 +531,9 @@ Build monetizable AI agents with these frameworks:
 - [**Microsoft Agent Framework**](https://github.com/microsoft/agent-framework) ⭐ 7.4k - Framework for building, orchestrating and deploying AI agents and multi-agent workflows (Python and .NET).
   - 💰 **Monetize:** Enterprise agent solutions, .NET/Python agent development, consulting
 
+- [**Spraay x402 Gateway**](https://gateway.spraay.app) — Multi-chain x402 payment gateway wrapping BlockRun's `@blockrun/llm` SDK as a production AI provider. 62 paid endpoints across AI inference, payments, DeFi, oracles, comms, and infrastructure.
+  - 💰 **Monetize:** Charge agents $0.01–$0.10 per x402 endpoint call, pay BlockRun ~$0.001–$0.01 per inference via x402, keep the spread on every request.    
+
 ### Browser Automation Agents
 
 - [**browser-use**](https://github.com/browser-use/browser-use) ⭐ 78.1k - Make websites accessible for AI agents. Automate any web task with natural language.
