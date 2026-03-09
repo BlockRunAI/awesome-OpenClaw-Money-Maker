@@ -531,6 +531,40 @@ Build monetizable AI agents with these frameworks:
 - [**Microsoft Agent Framework**](https://github.com/microsoft/agent-framework) ⭐ 7.4k - Framework for building, orchestrating and deploying AI agents and multi-agent workflows (Python and .NET).
   - 💰 **Monetize:** Enterprise agent solutions, .NET/Python agent development, consulting
 
+### OpenClaw Infrastructure
+
+Tools for deploying, hosting, monitoring, and securing OpenClaw AI agents in production.
+
+- [**ClawX**](https://github.com/ValueCell-ai/ClawX) ⭐ 3.3k - Desktop app GUI for OpenClaw AI agents. Turns CLI-based AI orchestration into a visual desktop experience.
+  - 💰 **Monetize:** Sell configured desktop agent packages, enterprise onboarding, white-label deployments
+
+- [**openclaw-dashboard**](https://github.com/tugcantopaloglu/openclaw-dashboard) ⭐ 334 - Secure, real-time monitoring dashboard for OpenClaw. Auth, TOTP MFA, cost tracking, live feed, memory browser.
+  - 💰 **Monetize:** Managed agent monitoring service, enterprise security deployments
+
+- [**clawhost**](https://github.com/bfzli/clawhost) ⭐ 234 - One-click cloud hosting for OpenClaw AI agents. Instant deployment without infrastructure setup.
+  - 💰 **Monetize:** Hosted agent service, managed deployments, resell as white-label platform
+
+- [**ClawApp**](https://github.com/qingchencloud/clawapp) ⭐ 208 - Mobile chat client for OpenClaw AI Agent. Streaming conversations, image support, tool calls. PWA + APK.
+  - 💰 **Monetize:** Mobile agent subscription, white-label app, consumer AI assistant
+
+- [**ClawBands**](https://github.com/SeyZ/clawbands) ⭐ 170 - Security middleware for OpenClaw AI agents. Protect against prompt injection, enforce policies, audit actions.
+  - 💰 **Monetize:** Enterprise security layer, compliance consulting, managed safety service
+
+- [**k8s-operator**](https://github.com/openclaw-rocks/k8s-operator) ⭐ 160 - Kubernetes operator for deploying and managing OpenClaw agent instances with production-grade security, observability, and lifecycle management.
+  - 💰 **Monetize:** Enterprise K8s deployments, multi-tenant agent platforms, DevOps consulting
+
+- [**openclaw-kapso-whatsapp**](https://github.com/Enriquefft/openclaw-kapso-whatsapp) ⭐ 145 - Give your OpenClaw agent a WhatsApp number. Official Meta Cloud API via Kapso. No ban risk.
+  - 💰 **Monetize:** AI WhatsApp business bots, customer support automation, WhatsApp CRM agents
+
+- [**clawmetry**](https://github.com/vivekchand/clawmetry) ⭐ 141 - Real-time observability dashboard for OpenClaw agents. See your agent think.
+  - 💰 **Monetize:** Agent monitoring SaaS, cost optimization consulting, enterprise observability
+
+- [**serverless-openclaw**](https://github.com/serithemage/serverless-openclaw) ⭐ 141 - Run OpenClaw on AWS serverless infrastructure with Web UI and Telegram interfaces. Cost target ~$1/month.
+  - 💰 **Monetize:** Ultra-cheap agent hosting service, serverless agent deployment, AWS consulting
+
+- [**AirClaw**](https://github.com/nickzsche21/AirClaw) ⭐ 54 - Run OpenClaw with zero API cost using local LLM via AirLLM. Completely free inference.
+  - 💰 **Monetize:** Privacy-first agent deployments, air-gapped enterprise solutions, zero-cost automation
+
 ### Browser Automation Agents
 
 - [**browser-use**](https://github.com/browser-use/browser-use) ⭐ 78.1k - Make websites accessible for AI agents. Automate any web task with natural language.
@@ -571,6 +605,9 @@ Build monetizable AI agents with these frameworks:
 
 - [**sharbelxyz/x-bookmarks**](https://github.com/sharbelxyz/x-bookmarks) ⭐ 226 - OpenClaw skill: turn your X bookmarks into agent actions.
   - 💰 **Monetize:** Research automation, content curation service
+
+- [**openclaw-ai-polymarket-trading-bot**](https://github.com/solcanine/openclaw-ai-polymarket-trading-bot) ⭐ 29 - OpenClaw AI Polymarket Trading Bot. Predicts crypto price on 5m BTC Up/Down markets and auto-executes paper or live trades.
+  - 💰 **Monetize:** Automated prediction market trading, signal subscription, managed trading service
 
 - [**ClawdTalk**](https://github.com/team-telnyx/clawdtalk-client) - Phone calling and SMS for OpenClaw via Telnyx. AI agents can make/receive calls and SMS with calendar, Jira, and web search integration.
   - 💰 **Monetize:** AI voice agent service, automated customer support lines, appointment reminder callbacks
@@ -673,6 +710,8 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 - [**AI-Agent-Platforms-Automation-Tools**](https://github.com/rembertdesigns/AI-Agent-Platforms-Automation-Tools) - Directory of autonomous AI agents, frameworks, platforms.
 
 - [**hesamsheikh/awesome-openclaw-usecases**](https://github.com/hesamsheikh/awesome-openclaw-usecases) ⭐ 15k - Community collection of OpenClaw use cases for making life (and money) easier.
+
+- [**AlexAnys/awesome-openclaw-usecases-zh**](https://github.com/AlexAnys/awesome-openclaw-usecases-zh) ⭐ 1.3k - 🇨🇳 OpenClaw 中文最佳用例大全 | 40 real-world scenarios adapted for China (domestic services + global platforms). Beginner-friendly Chinese guide.
 
 - [**HKUDS/ClawWork**](https://github.com/HKUDS/ClawWork) ⭐ 6k - Case study: OpenClaw as autonomous AI coworker earning $10K in 7 hours.
 
