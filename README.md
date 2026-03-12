@@ -615,6 +615,9 @@ Tools for deploying, hosting, monitoring, and securing OpenClaw AI agents in pro
 - [**ClawdTalk**](https://github.com/team-telnyx/clawdtalk-client) - Phone calling and SMS for OpenClaw via Telnyx. AI agents can make/receive calls and SMS with calendar, Jira, and web search integration.
   - 💰 **Monetize:** AI voice agent service, automated customer support lines, appointment reminder callbacks
 
+- [**keepmyclaw**](https://keepmyclaw.com) - Encrypted cloud backup and restore for OpenClaw workspaces. Daily automated snapshots to Cloudflare R2, client-side AES-256-GCM encryption, one-command restore and migration. [ClawHub](https://clawhub.ai/benriazy/keepmyclaw)
+  - 💰 **Monetize:** SaaS backup subscriptions, disaster recovery plans, managed backup service for teams running OpenClaw fleets
+
 ---
 
 ## Workflow Automation
