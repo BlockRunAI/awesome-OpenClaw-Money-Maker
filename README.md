@@ -809,3 +809,7 @@ To the extent possible under law, [BlockRun](https://blockrun.ai) has waived all
   <b>Money printer goes brrrr 🦞🖨️💵</b><br>
   <i>(but please manage your expectations)</i>
 </p>
+
+### 晴晴终极套件
+- [wd041216-bit/openclaw-ultimate-suite](https://github.com/wd041216-bit/openclaw-ultimate-suite) - OpenClaw 终极技能整合套件 - 29 个技能一站式整合 × 61 个专业 Agent × 安全内置 × 自动激活 × 飞书集成
+
