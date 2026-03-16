@@ -609,6 +609,9 @@ Tools for deploying, hosting, monitoring, and securing OpenClaw AI agents in pro
 - [**sharbelxyz/x-bookmarks**](https://github.com/sharbelxyz/x-bookmarks) ⭐ 226 - OpenClaw skill: turn your X bookmarks into agent actions.
   - 💰 **Monetize:** Research automation, content curation service
 
+- [**BlockRunAI/socialclaw**](https://github.com/BlockRunAI/socialclaw) ⭐ — X/Twitter intelligence + content optimization skill. Research accounts, track trends, draft algorithm-optimized posts, monitor engagement. Works with Claude Code, Codex, Gemini CLI, Cursor. $0.08/report via USDC micropayments.
+  - 💰 **Monetize:** X/Twitter growth consulting, content strategy services, competitor analysis reports, influencer research packages
+
 - [**openclaw-ai-polymarket-trading-bot**](https://github.com/solcanine/openclaw-ai-polymarket-trading-bot) ⭐ 29 - OpenClaw AI Polymarket Trading Bot. Predicts crypto price on 5m BTC Up/Down markets and auto-executes paper or live trades.
   - 💰 **Monetize:** Automated prediction market trading, signal subscription, managed trading service
 
