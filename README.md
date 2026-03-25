@@ -609,6 +609,9 @@ Tools for deploying, hosting, monitoring, and securing OpenClaw AI agents in pro
 - [**sharbelxyz/x-bookmarks**](https://github.com/sharbelxyz/x-bookmarks) ⭐ 226 - OpenClaw skill: turn your X bookmarks into agent actions.
   - 💰 **Monetize:** Research automation, content curation service
 
+- [**Daveglaser0823/northstar-skill**](https://github.com/Daveglaser0823/northstar-skill) - Daily business briefing skill for OpenClaw. Pulls revenue, churn, subscribers, and order data from Stripe, Shopify, Lemon Squeezy, or Gumroad. Delivers morning briefing via iMessage, Slack, or Telegram. Free tier (Stripe + iMessage) and paid tiers ($19-49/month).
+  - 💰 **Monetize:** Sell as SaaS skill ($19-49/month per user), white-label for agencies, bundle with consulting
+
 - [**BlockRunAI/socialclaw**](https://github.com/BlockRunAI/socialclaw) ⭐ — X/Twitter intelligence + content optimization skill. Research accounts, track trends, draft algorithm-optimized posts, monitor engagement. Works with Claude Code, Codex, Gemini CLI, Cursor. $0.08/report via USDC micropayments.
   - 💰 **Monetize:** X/Twitter growth consulting, content strategy services, competitor analysis reports, influencer research packages
 
