@@ -618,6 +618,9 @@ Tools for deploying, hosting, monitoring, and securing OpenClaw AI agents in pro
 - [**ClawdTalk**](https://github.com/team-telnyx/clawdtalk-client) - Phone calling and SMS for OpenClaw via Telnyx. AI agents can make/receive calls and SMS with calendar, Jira, and web search integration.
   - 💰 **Monetize:** AI voice agent service, automated customer support lines, appointment reminder callbacks
 
+- [**laboon-self-healing**](https://github.com/aretaafandi02-source/laboon-self-healing) 🐋 - Safe, transparent self-healing system for OpenClaw. Zero external dependencies. 4-tier recovery (health check → auto-restart → doctor fix → critical alert). Unlike ClawHub watchdog skills (all flagged suspicious), uses only built-in OpenClaw commands. No crypto keys, no eval, no external APIs.
+  - 💰 **Monetize:** Managed OpenClaw hosting, self-healing-as-a-service, enterprise monitoring
+
 ---
 
 ## Workflow Automation
