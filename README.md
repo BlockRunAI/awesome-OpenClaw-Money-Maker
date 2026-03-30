@@ -172,6 +172,9 @@ curl -fsSL https://blockrun.ai/ClawRouter-update | bash
 - [**solana-grpc-sniper-bot**](https://github.com/0xRustPro/solana-grpc-sniper-bundler-bot) ⭐ 126 - High-speed Solana sniper using gRPC for real-time transaction streaming.
   - 💰 **Monetize:** New token sniping, managed sniper service, speed advantage
 
+- [**pumpclaw**](https://github.com/chainstacklabs/pumpclaw) - Agent skill for pump.fun trading via [pumpfun-cli](https://github.com/chainstacklabs/pumpfun-cli). Buy, sell, launch tokens, manage wallets, with dry-run safety and PumpSwap AMM migration support. Works with OpenClaw, Claude Code, Cursor, and Codex.
+  - 💰 **Monetize:** Token trading profits, automated agent-driven pump.fun launches, trading fee collection
+
 ---
 
 ## MEV & Arbitrage
