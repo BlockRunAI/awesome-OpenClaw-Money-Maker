@@ -286,6 +286,7 @@ curl -fsSL https://blockrun.ai/ClawRouter-update | bash
 
 - [**BankrBot/openclaw-skills**](https://github.com/BankrBot/openclaw-skills) - OpenClaw skills for Polymarket betting, crypto trading, DeFi operations, leverage trading, portfolio management. Multi-chain: Base, Ethereum, Polygon, Solana.
   - 💰 **Monetize:** Sell skills on ClawHub, partner with exchanges for affiliate volume
+- [skill-taxonomy](https://github.com/SeeleAI/skill-taxonomy) - Structured taxonomy for AI agent skills: discovery, classification and routing across multi-agent workflows.
 
 ---
 
