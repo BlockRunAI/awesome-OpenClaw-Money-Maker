@@ -13,23 +13,26 @@
 ## Web4 The Money Loop 🔄
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   💵 USDC ──► ClawRouter ──► LLM ──► OpenClaw ──► 💰 Profit │
-│       ▲                                              │      │
-│       └──────────────── reinvest ◄───────────────────┘      │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│                                                                  │
+│   💵 USDC ──► Franklin ──► ClawRouter ──► LLM ──► 💰 Profit     │
+│       ▲          │                              │                │
+│       │     marketing,                    OpenClaw │               │
+│       │     trading, content                 │   │                │
+│       └──────────────── reinvest ◄───────────┘                    │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 1. **Fund your wallet** with USDC (on Base)
 2. **OpenClaw uses [ClawRouter](https://github.com/BlockRunAI/ClawRouter)** to access 41+ LLMs
 3. **Pay-per-request** via x402 micropayments - no API keys, no subscriptions
 4. **Save up to 92%** on inference costs with smart model routing
-5. **LLM executes tasks** that generate income
-6. **Profit funds more usage** - creating a self-sustaining money loop
+5. **[Franklin](https://github.com/BlockRunAI/franklin) — the AI agent with a wallet** — runs marketing campaigns, trading signals, and content generation autonomously
+6. **LLM executes tasks** that generate income
+7. **Profit funds more usage** - creating a self-sustaining money loop
 
-**Get started:** [ClawRouter v0.11.12](https://github.com/BlockRunAI/ClawRouter) ⭐ 3.8k | [BlockRun.ai](https://blockrun.ai)
+**Get started:** [Franklin](https://github.com/BlockRunAI/franklin) ⭐ | [ClawRouter v0.11.12](https://github.com/BlockRunAI/ClawRouter) ⭐ 3.8k | [BlockRun.ai](https://blockrun.ai)
 
 ### 🆕 ClawRouter v0.11.12 - Mar 2026
 
@@ -71,6 +74,7 @@ curl -fsSL https://blockrun.ai/ClawRouter-update | bash
 
 ## Contents
 
+- [Franklin — AI Agent with a Wallet](#franklin--ai-agent-with-a-wallet) ⭐ FEATURED
 - [Trading Bots](#trading-bots)
 - [MEV & Arbitrage](#mev--arbitrage)
 - [Prediction Markets](#prediction-markets)
@@ -86,6 +90,47 @@ curl -fsSL https://blockrun.ai/ClawRouter-update | bash
 - [Resources & Directories](#resources--directories)
 - [Cost Considerations](#cost-considerations)
 - [Security Warnings](#security-warnings)
+
+---
+
+## Franklin — AI Agent with a Wallet
+
+> **The first Autonomous Economic Agent.** Franklin doesn't just write text — it autonomously spends USDC from a user-funded wallet to execute real work: marketing campaigns, trading signals, content generation.
+
+**Built on three layers:**
+
+1. **x402 micropayment protocol** — HTTP 402 native payments. Every API call is a payment. No billing dashboards, no API keys — just pay-per-request over HTTP.
+2. **BlockRun Gateway** — aggregates 55+ LLMs + paid APIs (Exa, DALL-E, future Runway/Suno/CoinGecko) behind a single x402 endpoint.
+3. **Franklin Agent** — the reference client. An AI agent that actually spends money to get things done.
+
+**Two verticals, one wallet:**
+
+| Vertical | What it does |
+|---|---|
+| **Marketing Agent** | Campaigns, content creation, social outreach — autonomously pays for API access, image generation, web search |
+| **Trading Agent** | Signals, research, risk analysis — autonomously pays for market data, LLM reasoning, on-chain queries |
+
+**Why Franklin belongs in this list:**
+
+- It's the **only agent that natively spends crypto** to complete tasks — not a simulation, not a demo, real USDC on Base
+- **x402 protocol** makes every API call a micropayment — no subscriptions, no API keys, just pay-per-request
+- **Smart model routing** — plans with premium models, executes with cheap ones, saving 5-10x on LLM costs
+- **Self-learning** — tracks which models/tools deliver the best results per task type and optimizes automatically
+- **Plugin system** — extensible with social, marketing, and custom plugins
+- **MCP integration** — auto-discovers and uses Model Context Protocol servers for additional tools
+
+**Quick start:**
+
+```bash
+npm install -g @blockrun/franklin
+franklin  # launch the agent
+```
+
+**Links:**
+
+- 🏠 [GitHub](https://github.com/BlockRunAI/franklin) — Source code
+- 📦 [npm](https://www.npmjs.com/package/@blockrun/franklin) — Install package
+- 🌐 [BlockRun.ai](https://blockrun.ai) — Platform & wallet setup
 
 ---
 
@@ -386,6 +431,9 @@ curl -fsSL https://blockrun.ai/ClawRouter-update | bash
 Build monetizable AI agents with these frameworks:
 
 ### General Agent Frameworks
+
+- [**Franklin**](https://github.com/BlockRunAI/franklin) ⭐ FEATURED - The first Autonomous Economic Agent. Natively spends USDC via x402 micropayments to execute real work — marketing campaigns, trading signals, content generation. Smart model routing, self-learning, plugin system.
+  - 💰 **Monetize:** Build plugins, create agent workflows, offer agent-as-a-service with built-in payments
 
 - [**Awesome LLM Apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) ⭐ 95.4k - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini, and open-source models.
   - 💰 **Monetize:** Clone and customize apps, build SaaS products, consulting services
