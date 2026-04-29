@@ -32,9 +32,9 @@
 6. **LLM executes tasks** that generate income
 7. **Profit funds more usage** - creating a self-sustaining money loop
 
-**Get started:** [Franklin](https://github.com/BlockRunAI/franklin) ⭐ | [ClawRouter v0.11.12](https://github.com/BlockRunAI/ClawRouter) ⭐ 3.8k | [BlockRun.ai](https://blockrun.ai)
+**Get started:** [Franklin](https://github.com/BlockRunAI/franklin) ⭐ | [ClawRouter v0.12.161](https://github.com/BlockRunAI/ClawRouter) ⭐ 6.4k | [BlockRun.ai](https://blockrun.ai)
 
-### 🆕 ClawRouter v0.11.12 - Mar 2026
+### 🆕 ClawRouter v0.12.161 - Apr 2026
 
 Latest version with 16-model curated allowlist, image generation, usage reports, and three-strike escalation:
 
@@ -64,7 +64,7 @@ Latest version with 16-model curated allowlist, image generation, usage reports,
 openclaw plugins install @blockrun/clawrouter
 
 # Or via npm
-npm install @blockrun/clawrouter@0.11.12
+npm install @blockrun/clawrouter@0.12.161
 
 # Or standalone
 curl -fsSL https://blockrun.ai/ClawRouter-update | bash
@@ -657,7 +657,7 @@ Tools for deploying, hosting, monitoring, and securing OpenClaw AI agents in pro
 - [**sharbelxyz/x-bookmarks**](https://github.com/sharbelxyz/x-bookmarks) ⭐ 226 - OpenClaw skill: turn your X bookmarks into agent actions.
   - 💰 **Monetize:** Research automation, content curation service
 
-- [**BlockRunAI/socialclaw**](https://github.com/BlockRunAI/socialclaw) ⭐ — X/Twitter intelligence + content optimization skill. Research accounts, track trends, draft algorithm-optimized posts, monitor engagement. Works with Claude Code, Codex, Gemini CLI, Cursor. $0.08/report via USDC micropayments.
+- [**BlockRunAI/socialclaw**](https://github.com/BlockRunAI/socialclaw) ⭐ 3 - X/Twitter intelligence + content optimization skill. Research accounts, track trends, draft algorithm-optimized posts, monitor engagement. Works with Claude Code, Codex, Gemini CLI, Cursor. $0.08/report via USDC micropayments.
   - 💰 **Monetize:** X/Twitter growth consulting, content strategy services, competitor analysis reports, influencer research packages
 
 - [**openclaw-ai-polymarket-trading-bot**](https://github.com/solcanine/openclaw-ai-polymarket-trading-bot) ⭐ 29 - OpenClaw AI Polymarket Trading Bot. Predicts crypto price on 5m BTC Up/Down markets and auto-executes paper or live trades.
@@ -707,6 +707,9 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 ### Data & APIs
 
+- [**blockrun-mcp**](https://github.com/BlockRunAI/blockrun-mcp) ⭐ 465 - Live data for AI agents — search, research, markets, crypto, X/Twitter. Pay-per-call via x402 micropayments. Also available hosted at [`mcp.blockrun.ai`](https://github.com/BlockRunAI/blockrun-mcp-server) (zero install).
+  - 💰 **Monetize:** Build paid data agents, package research workflows, charge per-report with USDC micropayments
+
 - [**MindsDB**](https://github.com/mindsdb/mindsdb) ⭐ 38.5k - Federated Query Engine for AI. The only MCP Server you'll ever need for database access.
   - 💰 **Monetize:** Data pipeline services, enterprise AI data integration, managed MindsDB hosting
 
@@ -751,6 +754,8 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 ### Awesome Lists
 
+- [**BlockRunAI/awesome-blockrun**](https://github.com/BlockRunAI/awesome-blockrun) ⭐ 14 - BlockRun ecosystem hub — docs, SDKs, research, and community. Start here for everything in the x402-native agent stack.
+
 - [**e2b-dev/awesome-ai-agents**](https://github.com/e2b-dev/awesome-ai-agents) ⭐ 25.7k - Comprehensive list of AI autonomous agents. Well-maintained with categories.
 
 - [**500-AI-Agents-Projects**](https://github.com/ashishpatel26/500-AI-Agents-Projects) - Curated AI agent use cases across industries (healthcare, finance, education, retail).
@@ -771,10 +776,13 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 ### Infrastructure
 
-- [**ClawRouter v0.11.12**](https://github.com/BlockRunAI/ClawRouter) ⭐ 3.8k - Smart LLM router, save up to 92% on inference. 16-model curated allowlist, one USDC wallet. **Features:** Response caching, 4 routing profiles, `/imagegen`, `clawrouter report`, three-strike escalation, `/debug`, tool-calling filter, session persistence, `clawrouter doctor`, multilingual support.
+- [**ClawRouter v0.12.161**](https://github.com/BlockRunAI/ClawRouter) ⭐ 6.4k - Smart LLM router, save up to 92% on inference. 16-model curated allowlist, one USDC wallet. **Features:** Response caching, 4 routing profiles, `/imagegen`, `clawrouter report`, three-strike escalation, `/debug`, tool-calling filter, session persistence, `clawrouter doctor`, multilingual support.
 - [**BlockRun.ai**](https://blockrun.ai) - Pay-per-request AI via x402 micropayments.
+- [**blockrun-mcp**](https://github.com/BlockRunAI/blockrun-mcp) ⭐ 465 - Live data MCP server for AI agents — search, research, markets, crypto, X/Twitter. Pay-per-call via x402 micropayments.
+- [**blockrun-mcp-server**](https://github.com/BlockRunAI/blockrun-mcp-server) - Hosted MCP at `mcp.blockrun.ai` — one URL, any agent, zero install.
+- **BlockRun SDKs** — OpenAI-compatible, pay-per-call USDC, zero rate limits: [Python](https://github.com/BlockRunAI/blockrun-llm) · [TypeScript](https://github.com/BlockRunAI/blockrun-llm-ts) · [Go](https://github.com/BlockRunAI/blockrun-llm-go) · [XRPL/RLUSD](https://github.com/BlockRunAI/blockrun-llm-xrpl)
 
-#### Popular Models on BlockRun (Mar 2026)
+#### Popular Models on BlockRun (Apr 2026)
 
 | Model | Pricing | Best For |
 |-------|---------|----------|
@@ -802,7 +810,7 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 ## Cost Considerations
 
-| Cost | Traditional | With ClawRouter v0.10.5 |
+| Cost | Traditional | With ClawRouter v0.12.161 |
 |------|-------------|----------------------|
 | LLM API tokens | $50 - $500+/mo | $4 - $40+/mo |
 | Hosting | $5 - $50/mo | $5 - $50/mo |
