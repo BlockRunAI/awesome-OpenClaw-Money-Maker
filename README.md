@@ -200,6 +200,9 @@ franklin  # launch the agent
 - [**TradingAgents**](https://github.com/TradingAgents-AI/TradingAgents) - Multi-agent trading framework with specialized analyst, researcher, and trader agents.
   - 💰 **Monetize:** Enterprise trading solutions, custom agent development
 
+- [**VARRD**](https://github.com/augiemazza/varrd) ⭐ 7 - Statistical edge discovery engine. Test any trading idea in plain English — runs event studies, backtests, and out-of-sample validation with 18 infrastructure-enforced guardrails against overfitting. Generates strategies for Freqtrade, Jesse, and more. CLI, Python SDK, or MCP server.
+  - 💰 **Monetize:** Validated strategy licensing, edge-as-a-service for funded traders, signal subscriptions, quant consulting
+
 ### Solana Trading
 
 - [**Solana Trading Bot**](https://github.com/warp-id/solana-trading-bot) ⭐ 2.3k - Beta Solana trading bot. Sniper, swap, and automated trading.
