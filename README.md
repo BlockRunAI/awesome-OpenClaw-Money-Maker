@@ -660,6 +660,9 @@ Tools for deploying, hosting, monitoring, and securing OpenClaw AI agents in pro
 - [**BlockRunAI/socialclaw**](https://github.com/BlockRunAI/socialclaw) ⭐ 3 - X/Twitter intelligence + content optimization skill. Research accounts, track trends, draft algorithm-optimized posts, monitor engagement. Works with Claude Code, Codex, Gemini CLI, Cursor. $0.08/report via USDC micropayments.
   - 💰 **Monetize:** X/Twitter growth consulting, content strategy services, competitor analysis reports, influencer research packages
 
+- [**Xquik-dev/tweetclaw**](https://github.com/Xquik-dev/tweetclaw) - OpenClaw X/Twitter automation plugin and skill. Search posts, inspect account status, track trends, prepare drafts, run monitored workflows, and require explicit confirmation before write actions.
+  - 💰 **Monetize:** Managed social monitoring, lead research reports, content operations retainers. Realistic starting range: $200-$1,500/mo per client depending on scope and review requirements
+
 - [**openclaw-ai-polymarket-trading-bot**](https://github.com/solcanine/openclaw-ai-polymarket-trading-bot) ⭐ 29 - OpenClaw AI Polymarket Trading Bot. Predicts crypto price on 5m BTC Up/Down markets and auto-executes paper or live trades.
   - 💰 **Monetize:** Automated prediction market trading, signal subscription, managed trading service
 
