@@ -865,3 +865,5 @@ To the extent possible under law, [BlockRun](https://blockrun.ai) has waived all
   <b>Money printer goes brrrr 🦞🖨️💵</b><br>
   <i>(but please manage your expectations)</i>
 </p>
+
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Free open-source monitoring dashboard for OpenClaw AI agents — token usage, session tracking, 7-day trends, multi-model support.
