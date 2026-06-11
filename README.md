@@ -711,6 +711,9 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 - [**blockrun-mcp**](https://github.com/BlockRunAI/blockrun-mcp) ⭐ 465 - Live data for AI agents — search, research, markets, crypto, X/Twitter. Pay-per-call via x402 micropayments. Also available hosted at [`mcp.blockrun.ai`](https://github.com/BlockRunAI/blockrun-mcp-server) (zero install).
   - 💰 **Monetize:** Build paid data agents, package research workflows, charge per-report with USDC micropayments
 
+- [**The Stall**](https://github.com/thebrierfox/the-stall) - 209 pay-per-call data tools via MCP + x402 micropayments. US/EU/JP stocks, crypto/DeFi intelligence, options GEX, dealer gamma exposure, congressional trades, global news (GDELT), weather history, social momentum, sanctions screening. Hosted at [`the-stall.intuitek.ai/mcp`](https://the-stall.intuitek.ai/mcp). USDC on Base.
+  - 💰 **Monetize:** Plug pay-per-call market data into Franklin, trading bots, or MCP agent pipelines — pay only for what agents actually consume instead of $500+/mo API subscriptions
+
 - [**MindsDB**](https://github.com/mindsdb/mindsdb) ⭐ 38.5k - Federated Query Engine for AI. The only MCP Server you'll ever need for database access.
   - 💰 **Monetize:** Data pipeline services, enterprise AI data integration, managed MindsDB hosting
 
