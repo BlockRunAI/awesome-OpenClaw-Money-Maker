@@ -667,6 +667,9 @@ Tools for deploying, hosting, monitoring, and securing OpenClaw AI agents in pro
 - [**ClawdTalk**](https://github.com/team-telnyx/clawdtalk-client) - Phone calling and SMS for OpenClaw via Telnyx. AI agents can make/receive calls and SMS with calendar, Jira, and web search integration.
   - 💰 **Monetize:** AI voice agent service, automated customer support lines, appointment reminder callbacks
 
+- [**js-creamlon**](https://github.com/imjszhang/js-creamlon) - Turn any GitHub repo into a **melon** — an async agent service store. Sellers publish a service catalog, buyers place orders as Issues, every delivery gets an Ed25519 signed receipt. Supports x402, Stripe, or any payment rail. Complements sync micropayment rails like ClawRouter.
+  - 💰 **Monetize:** Open a melon to sell async agent services (code review, report generation, data cleanup) with verifiable delivery and one-time access passes
+
 ---
 
 ## Workflow Automation
