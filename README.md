@@ -25,9 +25,9 @@
 ```
 
 1. **Fund your wallet** with USDC (on Base)
-2. **OpenClaw uses [ClawRouter](https://github.com/BlockRunAI/ClawRouter)** to access 55+ LLMs
+2. **OpenClaw uses [ClawRouter](https://github.com/BlockRunAI/ClawRouter)** to access <!-- br:models.chatVisible -->66<!-- /br:models.chatVisible --> LLMs
 3. **Pay-per-request** via x402 micropayments - no API keys, no subscriptions
-4. **Save up to 92%** on inference costs with smart model routing
+4. **Save <!-- br:savings.autoVsBaselinePct -->87<!-- /br:savings.autoVsBaselinePct -->%** on inference costs with smart model routing
 5. **[Franklin](https://github.com/BlockRunAI/franklin) — the AI agent with a wallet** — runs marketing campaigns, trading signals, and content generation autonomously
 6. **LLM executes tasks** that generate income
 7. **Profit funds more usage** - creating a self-sustaining money loop
@@ -100,7 +100,7 @@ curl -fsSL https://blockrun.ai/ClawRouter-update | bash
 **Built on three layers:**
 
 1. **x402 micropayment protocol** — HTTP 402 native payments. Every API call is a payment. No billing dashboards, no API keys — just pay-per-request over HTTP.
-2. **BlockRun Gateway** — aggregates 55+ LLMs + paid APIs (Exa, DALL-E, future Runway/Suno/CoinGecko) behind a single x402 endpoint.
+2. **BlockRun Gateway** — aggregates <!-- br:models.chatVisible -->66<!-- /br:models.chatVisible --> LLMs + paid APIs (Exa, DALL-E, future Runway/Suno/CoinGecko) behind a single x402 endpoint.
 3. **Franklin Agent** — the reference client. An AI agent that actually spends money to get things done.
 
 **Three verticals, one wallet:**
@@ -777,7 +777,7 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 ### Infrastructure
 
-- [**ClawRouter v0.12.200**](https://github.com/BlockRunAI/ClawRouter) ⭐ 6.5k - Smart LLM router, save up to 92% on inference. 16-model curated allowlist, one USDC wallet. **Features:** Response caching, 4 routing profiles, `/imagegen`, `clawrouter report`, three-strike escalation, `/debug`, tool-calling filter, session persistence, `clawrouter doctor`, multilingual support.
+- [**ClawRouter v0.12.200**](https://github.com/BlockRunAI/ClawRouter) ⭐ 6.5k - Smart LLM router, save <!-- br:savings.autoVsBaselinePct -->87<!-- /br:savings.autoVsBaselinePct -->% on inference. 16-model curated allowlist, one USDC wallet. **Features:** Response caching, 4 routing profiles, `/imagegen`, `clawrouter report`, three-strike escalation, `/debug`, tool-calling filter, session persistence, `clawrouter doctor`, multilingual support.
 - [**BlockRun.ai**](https://blockrun.ai) - Pay-per-request AI via x402 micropayments.
 - [**blockrun-mcp**](https://github.com/BlockRunAI/blockrun-mcp) ⭐ 465 - Live data MCP server for AI agents — search, research, markets, crypto, X/Twitter. Pay-per-call via x402 micropayments.
 - [**blockrun-mcp-server**](https://github.com/BlockRunAI/blockrun-mcp-server) - Hosted MCP at `mcp.blockrun.ai` — one URL, any agent, zero install.
@@ -818,7 +818,7 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 | Data APIs | $0 - $200/mo | $0 - $200/mo |
 | **Break-even** | **~$220/month** | **~$75/month** |
 
-**Blended cost:** $2.05/M tokens vs $25/M (Opus) = **92% savings**
+**Blended cost:** $2.05/M tokens vs $25/M (Opus) = **<!-- br:savings.autoVsBaselinePct -->87<!-- /br:savings.autoVsBaselinePct -->% savings**
 
 **Pro tip:** Use `/model eco` profile for maximum savings. Gemini 2.5 Flash Lite at $0.10/$0.40 is the cheapest option (ECO tier default). Kimi K2.5 offers 262K context at $0.60/$3.00 for long documents. Use `/imagegen` for on-demand image generation via x402 micropayments.
 
