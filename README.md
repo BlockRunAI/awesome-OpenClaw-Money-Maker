@@ -781,6 +781,7 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 - [**BlockRun.ai**](https://blockrun.ai) - Pay-per-request AI via x402 micropayments.
 - [**blockrun-mcp**](https://github.com/BlockRunAI/blockrun-mcp) ⭐ 465 - Live data MCP server for AI agents — search, research, markets, crypto, X/Twitter. Pay-per-call via x402 micropayments.
 - [**blockrun-mcp-server**](https://github.com/BlockRunAI/blockrun-mcp-server) - Hosted MCP at `mcp.blockrun.ai` — one URL, any agent, zero install.
+- [**minia2a**](https://minia2a.uk) — M2M micropayment marketplace: 173+ services, 34 registered agents, x402-native USDC payments on Base. Agents discover and pay for APIs with no API keys — free trials on 86 endpoints. Built for the agent-to-agent economy.
 - **BlockRun SDKs** — OpenAI-compatible, pay-per-call USDC, zero rate limits: [Python](https://github.com/BlockRunAI/blockrun-llm) · [TypeScript](https://github.com/BlockRunAI/blockrun-llm-ts) · [Go](https://github.com/BlockRunAI/blockrun-llm-go) · [XRPL/RLUSD](https://github.com/BlockRunAI/blockrun-llm-xrpl)
 
 #### Popular Models on BlockRun (Jun 2026)
