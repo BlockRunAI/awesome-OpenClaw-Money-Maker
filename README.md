@@ -25,7 +25,7 @@
 ```
 
 1. **Fund your wallet** with USDC (on Base)
-2. **OpenClaw uses [ClawRouter](https://github.com/BlockRunAI/ClawRouter)** to access <!-- br:models.chatVisible -->66<!-- /br:models.chatVisible --> LLMs
+2. **OpenClaw uses [ClawRouter](https://github.com/BlockRunAI/ClawRouter)** to access <!-- br:models.chatVisible -->71<!-- /br:models.chatVisible --> LLMs
 3. **Pay-per-request** via x402 micropayments - no API keys, no subscriptions
 4. **Save <!-- br:savings.autoVsBaselinePct -->87<!-- /br:savings.autoVsBaselinePct -->%** on inference costs with smart model routing
 5. **[Franklin](https://github.com/BlockRunAI/franklin) — the AI agent with a wallet** — runs marketing campaigns, trading signals, and content generation autonomously
@@ -100,7 +100,7 @@ curl -fsSL https://blockrun.ai/ClawRouter-update | bash
 **Built on three layers:**
 
 1. **x402 micropayment protocol** — HTTP 402 native payments. Every API call is a payment. No billing dashboards, no API keys — just pay-per-request over HTTP.
-2. **BlockRun Gateway** — aggregates <!-- br:models.chatVisible -->66<!-- /br:models.chatVisible --> LLMs + paid APIs (Exa, DALL-E, future Runway/Suno/CoinGecko) behind a single x402 endpoint.
+2. **BlockRun Gateway** — aggregates <!-- br:models.chatVisible -->71<!-- /br:models.chatVisible --> LLMs + paid APIs (Exa, DALL-E, future Runway/Suno/CoinGecko) behind a single x402 endpoint.
 3. **Franklin Agent** — the reference client. An AI agent that actually spends money to get things done.
 
 **Three verticals, one wallet:**
