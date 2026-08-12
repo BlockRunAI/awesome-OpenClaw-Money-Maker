@@ -706,6 +706,9 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 - [**MCP-Use**](https://github.com/mcp-use/mcp-use) ⭐ 9.2k - Easiest way to interact with MCP servers using custom agents. Agent-first MCP client.
   - 💰 **Monetize:** Agent development services, MCP integration consulting
 
+- [**stipend**](https://github.com/stipend-sh/stipend) - Non-custodial USDC wallet on Base an agent installs by itself. Local stdio MCP server, 7 tools. Per-transaction, per-day and per-counterparty caps plus a destination allowlist are enforced in code before signing, so an injected "send it all here" cannot raise them. Buyer-side x402 auto-pay via EIP-3009.
+  - 💰 **Monetize:** Get paid directly — publish the wallet address so money reaches the agent whether or not it is running, read incoming payments with `stipend_earnings`, and check earned against spent with runway in days via `stipend_report`.
+
 ### Data & APIs
 
 - [**blockrun-mcp**](https://github.com/BlockRunAI/blockrun-mcp) ⭐ 465 - Live data for AI agents — search, research, markets, crypto, X/Twitter. Pay-per-call via x402 micropayments. Also available hosted at [`mcp.blockrun.ai`](https://github.com/BlockRunAI/blockrun-mcp-server) (zero install).
