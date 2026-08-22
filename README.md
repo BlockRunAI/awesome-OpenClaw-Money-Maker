@@ -189,9 +189,6 @@ franklin  # launch the agent
 - [**AI Trading Agent (Hyperliquid)**](https://github.com/Gajesh2007/ai-trading-agent) ⭐ 455 - AI trading agent built specifically for Hyperliquid perpetual DEX.
   - 💰 **Monetize:** Perp trading profits, signal service, managed accounts
 
-- [**AgentTrade**](https://github.com/luffycodes/AgentTrade) - LLM-based trading system using technical analysis, news, and sentiment with reasoning.
-  - 💰 **Monetize:** Signal service, managed accounts, SaaS platform
-
 - [**OpenAlice**](https://github.com/TraderAlice/OpenAlice) ⭐ 571 - File-driven AI trading agent engine for crypto and securities markets. Autonomous 24/7 operation.
   - 💰 **Monetize:** Managed trading service, agent customization, strategy licensing
 
@@ -231,9 +228,6 @@ franklin  # launch the agent
 - [**mev-template-rs**](https://github.com/degatchi/mev-template-rs) ⭐ 727 - Bootstrap MEV bot strategies with Rust boilerplate.
   - 💰 **Monetize:** Build custom MEV strategies, consulting, bot-as-a-service
 
-- [**Arbitrage MEV BOT**](https://github.com/sOLarFLaMEPyL/Arbitrage_Mev_BOT) ⭐ 613 - Contract for MEV: flash loans, arbitrage, liquidations. Ready to deploy and use.
-  - 💰 **Monetize:** Deploy and run MEV strategies, consulting, bot customization
-
 - [**mev-templates**](https://github.com/solidquant/mev-templates) ⭐ 567 - MEV templates in Python/Javascript/Rust. DEX flashloan arbitrage.
   - 💰 **Monetize:** Cross-DEX arbitrage, flashloan profits, strategy development
 
@@ -267,9 +261,6 @@ franklin  # launch the agent
 - [**poly-maker**](https://github.com/warproxxx/poly-maker) ⭐ 856 - Market making bot for Polymarket. Configurable via Google Sheets. Provides liquidity on both sides of the book.
   - 💰 **Monetize:** Market making spreads, managed MM services
 
-- [**Polymarket Copy Trading Bot**](https://github.com/RandyTas/polymarket-copytrading-bot) ⭐ 822 - Copy trading bot for Polymarket. Follow successful traders automatically.
-  - 💰 **Monetize:** Copy trading service, signal selling, managed accounts
-
 - [**py-clob-client**](https://github.com/Polymarket/py-clob-client) ⭐ 785 - Official Python client for the Polymarket CLOB (Central Limit Order Book).
   - 💰 **Monetize:** Build custom trading bots, API services, consulting
 
@@ -288,23 +279,11 @@ franklin  # launch the agent
 - [**Cross-Market State Fusion**](https://github.com/humanplane/cross-market-state-fusion) ⭐ 343 - RL agent fusing real-time Binance futures data into Polymarket prediction markets. On-device training with MLX on Apple Silicon.
   - 💰 **Monetize:** Cross-market signals, AI model licensing, trading service
 
-- [**Polymarket Copy Bot (TS)**](https://github.com/JerriyaAnderson/polymarket-copy-bot-ts) ⭐ 819 - Polymarket copy trading bot in TypeScript. Follow top traders automatically.
-  - 💰 **Monetize:** Copy trading service, signal selling, SaaS platform
-
-- [**Kalshi-Polymarket AI Bot**](https://github.com/CraftyGeezer/Kalshi-Polymarket-Ai-bot) ⭐ 689 - AI-powered bot for trading on both Kalshi and Polymarket prediction markets.
-  - 💰 **Monetize:** Cross-platform trading, AI signal service, managed accounts
-
 - [**rs-clob-client**](https://github.com/Polymarket/rs-clob-client) ⭐ 520 - Official Polymarket Rust CLOB client. High-performance order book access.
   - 💰 **Monetize:** Build ultra-fast trading bots, HFT strategies, API services
 
-- [**Polymarket RSI/MACD Bot**](https://github.com/Daniel-Dias001/Polymarket-rsi-macd-index-trading-bot) ⭐ 484 - Polymarket trading bot combining RSI/MACD strategy logic for 15-minute prediction markets.
-  - 💰 **Monetize:** Technical analysis trading, signal service, bot licensing
-
 - [**clob-client (TS)**](https://github.com/Polymarket/clob-client) ⭐ 441 - Official TypeScript client for the Polymarket CLOB.
   - 💰 **Monetize:** Build custom bots, trading dashboards, API integrations
-
-- [**Polymarket Spike Bot**](https://github.com/Trust412/Polymarket-spike-bot-v1) ⭐ 310 - High-frequency Polymarket trading bot with real-time price monitoring, automated spike detection, and smart order execution.
-  - 💰 **Monetize:** HFT profits, bot licensing, managed trading
 
 ### Arbitrage Bots
 
@@ -321,9 +300,6 @@ franklin  # launch the agent
 ---
 
 ## DeFi & Yield Farming
-
-- [**DeFi-Yield-AutoFarming**](https://github.com/therumpshakingaction/DeFi-Yield-AutoFarming) - Automated yield farming with auto-reinvestment, pool optimization, risk management.
-  - 💰 **Monetize:** Take % of returns, subscription access, manage client portfolios
 
 - [**yield-farmers-almanac**](https://github.com/corbinpage/yield-farmers-almanac) - Community-sourced DeFi yield farming opportunities database.
   - 💰 **Monetize:** Premium data feeds, analysis reports, tools built on top
@@ -660,6 +636,11 @@ Tools for deploying, hosting, monitoring, and securing OpenClaw AI agents in pro
 
 - [**BlockRunAI/socialclaw**](https://github.com/BlockRunAI/socialclaw) ⭐ 3 - X/Twitter intelligence + content optimization skill. Research accounts, track trends, draft algorithm-optimized posts, monitor engagement. Works with Claude Code, Codex, Gemini CLI, Cursor. $0.08/report via USDC micropayments.
   - 💰 **Monetize:** X/Twitter growth consulting, content strategy services, competitor analysis reports, influencer research packages
+
+- [**TweetClaw**](https://github.com/Xquik-dev/tweetclaw) - Official Xquik plugin for OpenClaw. Search posts, inspect profiles, export followers, and monitor accounts. Manage media, send DMs, publish, and run giveaways. Install with `openclaw plugins install clawhub:@xquik/tweetclaw`, then follow the [setup guide](https://github.com/Xquik-dev/tweetclaw/blob/master/docs/openclaw-setup.md).
+  - 🔧 **Setup:** Allow `explore` and `tweetclaw`. Configure credentials for live calls, or keep free explore-only mode. TweetClaw prompts before private, paid, recurring, and write actions.
+  - 💰 **Monetize:** Managed social monitoring, lead research, content operations, and reviewed publishing workflows
+  - **Disclosure:** Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
 
 - [**openclaw-ai-polymarket-trading-bot**](https://github.com/solcanine/openclaw-ai-polymarket-trading-bot) ⭐ 29 - OpenClaw AI Polymarket Trading Bot. Predicts crypto price on 5m BTC Up/Down markets and auto-executes paper or live trades.
   - 💰 **Monetize:** Automated prediction market trading, signal subscription, managed trading service
