@@ -426,6 +426,9 @@ franklin  # launch the agent
 - [**ALwrity**](https://github.com/ALwrity/ALwrity) - AI Digital Marketing Platform with RAG, SEO, multilingual. Blog Writer (Research→Outline→Content→SEO→Publish).
   - 💰 **Monetize:** Monthly SaaS, per-article pricing, agency white-label
 
+- [**BulkPublish social publishing service**](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills) - Use BulkPublish's reusable agent skills and API to plan, adapt, review, schedule, and publish approval-based social campaigns across connected channels; see the [MCP documentation](https://app.bulkpublish.com/docs).
+  - 💰 **Monetize:** Managed social content operations at roughly $300–$2,000 per client/month, depending on channels and volume; requires BulkPublish API access and client publishing authorization.
+
 - [**distribb-skill**](https://github.com/Bomx/distribb-skill) ⭐ 184 - AI-powered SEO skill for OpenClaw/Claude Code/Codex. Write with your own model, publish through a backlink network.
   - 💰 **Monetize:** SEO retainers, backlink packages, programmatic content sites
 
