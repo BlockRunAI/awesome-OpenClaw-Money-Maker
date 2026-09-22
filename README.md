@@ -331,6 +331,9 @@ franklin  # launch the agent
 - [**BankrBot Skills**](https://github.com/BankrBot/skills) - OpenClaw skills for Polymarket betting, crypto trading, DeFi operations, leverage trading, portfolio management. Multi-chain: Base, Ethereum, Polygon, Solana.
   - 💰 **Monetize:** Sell skills on ClawHub, partner with exchanges for affiliate volume
 
+- [**FarmDash OpenClaw Skills**](https://github.com/Parmasanandgarlic/farmdash-openclaw-skills) - 10 read-only OpenClaw DeFi skills: Trail Heat protocol ranking, swap planning with user-signed payloads, perps, portfolio books, hedge design, Sybil-risk policy checks. Zero-custody and fail-closed - no private keys, no auto-execution.
+  - 💰 **Monetize:** Pioneer ($39.99/mo) and Syndicate ($199/mo) API tiers, plus partner-route affiliate revenue via farmdash.one/go/*
+
 ---
 
 ## Airdrop Farming
