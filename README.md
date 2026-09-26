@@ -387,6 +387,9 @@ franklin  # launch the agent
 
 ---
 
+- [**threadfox-lite**](https://github.com/amflimited/threadfox-lite) - Read-only Reddit research MCP server and agent skill: subreddit rules with self-promotion rules flagged, community search, account standing and post status, read through your own signed-in Chrome.
+  - 💰 **Monetize:** Offer Reddit launch research and post monitoring to clients (which communities allow promotion, whether their posts stayed up)
+
 ## Content Creation
 
 - [**MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) ⭐ 119k - AI one-click HD short video generation.
