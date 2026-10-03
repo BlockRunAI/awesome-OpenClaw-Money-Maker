@@ -739,6 +739,8 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
   - 💰 **Monetize:** Build paid data agents, package research workflows, charge per-report with USDC micropayments
 
 - [**The Stall**](https://github.com/thebrierfox/the-stall) ⭐ 7 - x402-native MCP server with 210 pay-per-call data tools: US/EU/JP equities, crypto/DeFi, options GEX, dealer gamma, congressional trades, GDELT news, weather history, sanctions screening. Hosted at [`the-stall.intuitek.ai/mcp`](https://the-stall.intuitek.ai/mcp), USDC on Base, no API keys.
+- [**bilbop x402**](https://api.bilbop.org) - Pay-per-call Solana USDC APIs for agents (summarize, Solana token brief/mint info, Piper TTS, human brand feedback) via x402. No API keys — unpaid POST returns 402. Discovery at [`/.well-known/x402.json`](https://api.bilbop.org/.well-known/x402.json).
+  - 💰 **Monetize:** Sell agent-facing data/AI calls at ~\$0.01–\$0.50 per request on Solana USDC (PayAI facilitator).
   - 💰 **Monetize:** Feed pay-per-call market data into Franklin, trading bots, or agent pipelines — pay per query instead of $500+/mo data subscriptions
 
 - [**Worklittle Jobs MCP**](https://github.com/worklittle/jobs-mcp) - Remote MCP over 4M+ job listings with visa, salary, and distance filters. Swipe to apply from your agent, save roles to a Worklittle account. Hosted at [`mcp.worklittle.com`](https://mcp.worklittle.com/).
