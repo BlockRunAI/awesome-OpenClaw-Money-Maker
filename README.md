@@ -718,6 +718,9 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 ### Infrastructure
 
+- [**Money Reactor**](https://github.com/makar52nn2016-jpg/money-reactor) - Paid x402 micro-APIs for agents: hourly funded-bounty radar + honeypot trust scoring (USDC on Base, no signup, no API keys).
+  - 💰 **Monetize:** Sell your own data niche the same way: price per call, settle via x402. One accepted bounty from the feed pays ~4500x the feed call.
+
 - [**Awesome MCP Servers**](https://github.com/punkpeye/awesome-mcp-servers) ⭐ 93.4k - The definitive collection of MCP servers. 500+ servers across all categories.
   - 💰 **Monetize:** Build and list premium MCP servers, consulting for MCP integration
 
