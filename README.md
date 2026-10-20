@@ -810,6 +810,8 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 - [**HKUDS/ClawWork**](https://github.com/HKUDS/ClawWork) ⭐ 8.5k - Case study: OpenClaw as autonomous AI coworker earning $10K in 7 hours.
 
+- [**ianwieds/awesome-ai-agents**](https://github.com/ianwieds/awesome-ai-agents) - Curated list of agent frameworks, coding and browser agents, tools, platforms and research, with 55 products and platforms and 63 domain agents.
+
 ### Infrastructure
 
 - [**ClawRouter v0.12.256**](https://github.com/BlockRunAI/ClawRouter) ⭐ 6.6k - Smart LLM router, save <!-- br:savings.autoVsBaselinePct -->84<!-- /br:savings.autoVsBaselinePct -->% on inference. 16-model curated allowlist, one USDC wallet. **Features:** Response caching, 4 routing profiles, `/imagegen`, `clawrouter report`, three-strike escalation, `/debug`, tool-calling filter, session persistence, `clawrouter doctor`, multilingual support.
