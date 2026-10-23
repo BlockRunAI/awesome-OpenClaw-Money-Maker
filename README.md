@@ -636,6 +636,9 @@ Tools for deploying, hosting, monitoring, and securing OpenClaw AI agents in pro
 - [**ClawDeck**](https://github.com/clawdeckio/clawdeck) ⭐ 362 - Open-source mission control for fleets of OpenClaw agents.
   - 💰 **Monetize:** Agent fleet management SaaS, ops consulting, white-label control plane
 
+- [**deed.page skill**](https://github.com/f-o-x11/deed-page-skill) - MIT skill that lets an OpenClaw agent publish an HTML file or a static folder to a permanent `https://<slug>.deed.page/` URL with one `curl` request. No account or API key; the returned owner token updates the same URL. Free plan: 25 sites, 25 MB each.
+  - 💰 **Monetize:** Ship client landing pages, reports and dashboards as live links, sell site builds or page-as-a-service, update pages in place on a retainer
+
 ### Browser Automation Agents
 
 - [**browser-use**](https://github.com/browser-use/browser-use) ⭐ 112k - Make websites accessible for AI agents. Automate any web task with natural language.
