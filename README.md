@@ -733,6 +733,9 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 - [**stipend**](https://github.com/stipend-sh/stipend) - Non-custodial USDC wallet on Base an agent installs by itself. Local stdio MCP server, 7 tools. Per-transaction, per-day and per-counterparty caps plus a destination allowlist are enforced in code before signing, so an injected "send it all here" cannot raise them. Buyer-side x402 auto-pay via EIP-3009.
   - 💰 **Monetize:** Get paid directly — publish the wallet address so money reaches the agent whether or not it is running, read incoming payments with `stipend_earnings`, and check earned against spent with runway in days via `stipend_report`.
 
+- [**Mnemoverse Memory**](https://github.com/mnemoverse/mcp-memory-server) - MCP server for persistent agent memory. One key carries what an agent learned across Claude Code, Cursor, VS Code and ChatGPT, and recall is re-ranked by feedback on whether a memory helped or misled. Hosted at [`mcp.mnemoverse.com/mcp`](https://mcp.mnemoverse.com/mcp) with an OAuth sign-in, or run locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. MIT server, hosted engine with a free tier.
+  - 💰 **Monetize:** Agents that keep each client's context across sessions (support, research and sales assistants), memory-backed skills and workflows sold as a service, team rooms where lessons about a codebase accumulate instead of being re-taught per seat.
+
 ### Data & APIs
 
 - [**blockrun-mcp**](https://github.com/BlockRunAI/blockrun-mcp) ⭐ 393 - Live data for AI agents — search, research, markets, crypto, X/Twitter. Pay-per-call via x402 micropayments. Also available hosted at [`mcp.blockrun.ai`](https://github.com/BlockRunAI/blockrun-mcp-server) (zero install).
