@@ -693,6 +693,12 @@ Tools for deploying, hosting, monitoring, and securing OpenClaw AI agents in pro
 
 ---
 
+- [**alexlacroix613-creator/self-funding-agent**](https://github.com/alexlacroix613-creator/self-funding-agent) - Operator's manual for a self-funding AI agent: x402 payment rails, monetization lane ranking, scam vetting, hard-capped spending, weekly ledger template.
+  - 💰 **Monetize:** Use it to run your own agent income system; premium variants, consulting on agent payment setup
+
+- [**alexlacroix613-creator/x402-guard**](https://github.com/alexlacroix613-creator/x402-guard) - Minimal Python guard that turns any Flask endpoint into a pay-per-call x402 API (USDC on Base). Offline EIP-3009 signature verification, settlement hook. 7-test offline suite included.
+  - 💰 **Monetize:** Gate your own endpoints per-call; charge .01–0.10/call and keep 100% via facilitator settlement
+
 ## Workflow Automation
 
 - [**n8n-workflow-builder**](https://github.com/makafeli/n8n-workflow-builder) ⭐ 541 - AI assistant for n8n via MCP. Connect Claude, ChatGPT to n8n for natural language workflow management.
