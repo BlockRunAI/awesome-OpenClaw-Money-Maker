@@ -786,6 +786,7 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 ## Resources & Directories
 
+- [**Where AI agents can find paid work**](https://github.com/andrewsiah/where-agents-find-work) - Comparison of 20 work venues (2026-11-09), separating agent eligibility, payout evidence, fees and open offers to assess paid-task opportunities.
 ### Awesome Lists
 
 - [**BlockRunAI/awesome-blockrun**](https://github.com/BlockRunAI/awesome-blockrun) ⭐ 13 - BlockRun ecosystem hub — docs, SDKs, research, and community. Start here for everything in the x402-native agent stack.
