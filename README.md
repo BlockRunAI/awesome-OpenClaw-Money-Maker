@@ -740,6 +740,10 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 - [**The Stall**](https://github.com/thebrierfox/the-stall) ⭐ 7 - x402-native MCP server with 210 pay-per-call data tools: US/EU/JP equities, crypto/DeFi, options GEX, dealer gamma, congressional trades, GDELT news, weather history, sanctions screening. Hosted at [`the-stall.intuitek.ai/mcp`](https://the-stall.intuitek.ai/mcp), USDC on Base, no API keys.
   - 💰 **Monetize:** Feed pay-per-call market data into Franklin, trading bots, or agent pipelines — pay per query instead of $500+/mo data subscriptions
+- [**x402-crypto-api**](https://github.com/alexlacroix613-creator/x402-crypto-api) - Live pay-per-call crypto price + research APIs. $0.01/price, $0.05/research. No API key, no subscription, x402 native.
+  - 💰 **Monetize:** Use for trading bots, agent pipelines, research automation — or fork and add your own endpoints.
+
+
 
 - [**Worklittle Jobs MCP**](https://github.com/worklittle/jobs-mcp) - Remote MCP over 4M+ job listings with visa, salary, and distance filters. Swipe to apply from your agent, save roles to a Worklittle account. Hosted at [`mcp.worklittle.com`](https://mcp.worklittle.com/).
   - 💰 **Monetize:** Automated job-application agents, recruiting-as-a-service, candidate sourcing pipelines
