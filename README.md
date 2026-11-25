@@ -753,6 +753,9 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 - [**MCP Toolbox**](https://github.com/googleapis/mcp-toolbox) ⭐ 16.3k - Google's MCP Toolbox for Databases. Connect AI to PostgreSQL, MySQL, BigQuery, Spanner.
   - 💰 **Monetize:** Database automation, data extraction services, analytics pipelines
 
+- [**FlowFeed MCP**](https://github.com/loyt1/flowfeed-mcp) - Hosted remote MCP (OAuth) with real-time macro, forex and crypto news, an economic calendar and central bank releases. Paid ($9/month) at [flowfeed.cc](https://flowfeed.cc).
+  - 💰 **Monetize:** Macro-aware trading agents, daily market briefs, news-driven alerts
+
 - [**Git-MCP**](https://github.com/idosal/git-mcp) ⭐ 8.4k - Free remote MCP server for any GitHub project. Eliminates code hallucinations with real repo context.
   - 💰 **Monetize:** Code accuracy services, developer tool integrations
 
