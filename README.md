@@ -738,6 +738,9 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 - [**Mnemoverse Memory**](https://github.com/mnemoverse/mcp-memory-server) - MCP server for persistent agent memory. One key carries what an agent learned across Claude Code, Cursor, VS Code and ChatGPT, and recall is re-ranked by feedback on whether a memory helped or misled. Hosted at [`mcp.mnemoverse.com/mcp`](https://mcp.mnemoverse.com/mcp) with an OAuth sign-in, or run locally with `npx -y @mnemoverse/mcp-memory-server` and an API key. MIT server, hosted engine with a free tier.
   - 💰 **Monetize:** Agents that keep each client's context across sessions (support, research and sales assistants), memory-backed skills and workflows sold as a service, team rooms where lessons about a codebase accumulate instead of being re-taught per seat.
 
+- [**dual-rail**](https://github.com/dhyabi2/dual-rail) - Adapter that appends a Nano (XNO) entry to an x402 `accepts[]` list alongside existing USDC entries, with Python and Node bindings and a CLI to inspect and verify both rails.
+  - 💰 **Monetize:** Accept XNO from paying agents beside your existing USDC/x402 price without touching the USDC entries — a Nano-side failure falls through to your current rails.
+
 ### Data & APIs
 
 - [**blockrun-mcp**](https://github.com/BlockRunAI/blockrun-mcp) ⭐ 393 - Live data for AI agents — search, research, markets, crypto, X/Twitter. Pay-per-call via x402 micropayments. Also available hosted at [`mcp.blockrun.ai`](https://github.com/BlockRunAI/blockrun-mcp-server) (zero install).
