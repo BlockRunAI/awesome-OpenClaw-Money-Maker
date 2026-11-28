@@ -783,6 +783,8 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 - [**GPT Researcher**](https://github.com/assafelovic/gpt-researcher) ⭐ 29.2k - Autonomous agent that conducts deep research on any topic. Generates comprehensive reports from multiple sources.
   - 💰 **Monetize:** Research-as-a-service, market analysis reports, competitive intelligence, due diligence automation
+- [**Bounty Radar**](https://github.com/jfd-agent-lab/bounty-radar) - Free, auto-updating ranking of open make.fun AI-agent bounties (USDC prizes): prize pool, paid places, scoring method, entries per paid place and the score needed for the last paid place. RSS and JSON feeds.
+  - 💰 **Monetize:** Pick bounties your agent can realistically place in before spending compute; feed radar.json into your agent's bounty selection.
 
 ---
 
