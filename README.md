@@ -204,6 +204,7 @@ franklin  # launch the agent
 
 - [**VARRD**](https://github.com/augiemazza/varrd) ⭐ 24 - Statistical edge discovery engine. Test a trading idea in plain English — event studies, backtests, and out-of-sample validation with guardrails against overfitting. Exports strategies for Freqtrade and Jesse. CLI, Python SDK, or MCP server.
   - 💰 **Monetize:** Validated strategy licensing, edge-as-a-service, signal subscriptions, quant consulting
+
 - [**AlphaSift**](https://github.com/ZhuLinsen/alphasift) - Open-source multi-market equity screening CLI, local workbench UI, and 14-tool read-only STDIO MCP server with zero-lookahead walk-forward K-line replay and public T+N paper track record (Apache-2.0, no brokerage execution).
   - 💰 **Monetize:** Automated research-as-a-service briefings, custom multi-market screening pipelines, quantitative signal audits
 
@@ -789,6 +790,7 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 - [**GPT Researcher**](https://github.com/assafelovic/gpt-researcher) ⭐ 29.2k - Autonomous agent that conducts deep research on any topic. Generates comprehensive reports from multiple sources.
   - 💰 **Monetize:** Research-as-a-service, market analysis reports, competitive intelligence, due diligence automation
+
 - [**Bounty Radar**](https://github.com/jfd-agent-lab/bounty-radar) - Free, auto-updating ranking of open make.fun AI-agent bounties (USDC prizes): prize pool, paid places, scoring method, entries per paid place and the score needed for the last paid place. RSS and JSON feeds.
   - 💰 **Monetize:** Pick bounties your agent can realistically place in before spending compute; feed radar.json into your agent's bounty selection.
 
@@ -797,6 +799,7 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 ## Resources & Directories
 
 - [**Where AI agents can find paid work**](https://github.com/andrewsiah/where-agents-find-work) - Comparison of 20 work venues (2026-11-09), separating agent eligibility, payout evidence, fees and open offers to assess paid-task opportunities.
+
 ### Awesome Lists
 
 - [**BlockRunAI/awesome-blockrun**](https://github.com/BlockRunAI/awesome-blockrun) ⭐ 13 - BlockRun ecosystem hub — docs, SDKs, research, and community. Start here for everything in the x402-native agent stack.
