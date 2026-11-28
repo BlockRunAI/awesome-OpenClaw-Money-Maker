@@ -753,6 +753,9 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 - [**Worklittle Jobs MCP**](https://github.com/worklittle/jobs-mcp) - Remote MCP over 4M+ job listings with visa, salary, and distance filters. Swipe to apply from your agent, save roles to a Worklittle account. Hosted at [`mcp.worklittle.com`](https://mcp.worklittle.com/).
   - 💰 **Monetize:** Automated job-application agents, recruiting-as-a-service, candidate sourcing pipelines
 
+- [**B2B Market Intel MCP**](https://github.com/truonggiang0111/b2b-market-intel-mcp) - Zero-dependency Node.js STDIO MCP server with 3 zero-key live tools (Google News URL decoder, UK gov tenders, ClinicalTrials.gov sponsor leads) and 5 Apify B2B intelligence scrapers.
+  - 💰 **Monetize:** Package automated B2B lead packs, competitor app churn briefs, and n8n/Make/Google Sheets research workflows for agencies & SaaS teams
+
 - [**MindsDB**](https://github.com/mindsdb/mindshub) ⭐ 39.7k - Federated Query Engine for AI. The only MCP Server you'll ever need for database access.
   - 💰 **Monetize:** Data pipeline services, enterprise AI data integration, managed MindsDB hosting
 
