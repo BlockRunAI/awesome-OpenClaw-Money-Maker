@@ -204,6 +204,8 @@ franklin  # launch the agent
 
 - [**VARRD**](https://github.com/augiemazza/varrd) ⭐ 24 - Statistical edge discovery engine. Test a trading idea in plain English — event studies, backtests, and out-of-sample validation with guardrails against overfitting. Exports strategies for Freqtrade and Jesse. CLI, Python SDK, or MCP server.
   - 💰 **Monetize:** Validated strategy licensing, edge-as-a-service, signal subscriptions, quant consulting
+- [**AlphaSift**](https://github.com/ZhuLinsen/alphasift) - Open-source multi-market equity screening CLI, local workbench UI, and 14-tool read-only STDIO MCP server with zero-lookahead walk-forward K-line replay and public T+N paper track record (Apache-2.0, no brokerage execution).
+  - 💰 **Monetize:** Automated research-as-a-service briefings, custom multi-market screening pipelines, quantitative signal audits
 
 ### Solana Trading
 
